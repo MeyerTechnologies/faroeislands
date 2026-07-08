@@ -306,6 +306,45 @@ window.FAROE_ATTRACTIONS = [
     mustSee: false, visited: false
   },
   {
+    id: "leynavatn",
+    name: "Leynavatn",
+    island: "Streymoy",
+    lat: 62.12840, lng: -7.02270,
+    category: "natur",
+    description: "Færøernes tredjestørste sø, lige ved siden af vejen når man kører ud af undersøtunnelen fra Vágar. Rolig, spejlblank sø omgivet af grønne skråninger.",
+    tips: "~12 min fra Vestmanna. Nem at stoppe ved på vejen — kort gåtur langs bredden. Kombinér med Leynar-stranden 1,5 km væk.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leynavatn.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File%3ALeynavatn.jpg",
+    sources: ["guidetofaroeislands.fo"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "hvalvik",
+    name: "Hvalvík & Streymnes",
+    island: "Streymoy",
+    lat: 62.18701, lng: -7.03630,
+    category: "landsby",
+    description: "Tvillingebygd delt af åen Stórá (Hvalvík mod syd, Streymnes mod nord). Den sorte, græstørvstækkede kirke fra 1829 er en af Færøernes ældste træbygninger — dele af tømmeret stammer fra et skotsk skib, der forliste ved Saksun i 1828.",
+    tips: "~12-15 min fra Vestmanna langs kysten. Udgangspunkt for den klassiske vandretur til Vestmanna over fjeldet (3-4 t, kræver planlagt afhentning/bil i den anden ende — se punktet 'Dæmningerne ved Vestmanna'). Vilde laks og ørred i åen.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Church_of_Hvalv%C3%ADk%2C_Faroe_Islands.JPG/960px-Church_of_Hvalv%C3%ADk%2C_Faroe_Islands.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File%3AChurch_of_Hvalv%C3%ADk%2C_Faroe_Islands.JPG",
+    sources: ["en.wikipedia.org", "guidetofaroeislands.fo"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "kollafjordur",
+    name: "Kollafjørður",
+    island: "Streymoy",
+    lat: 62.11739, lng: -6.90242,
+    category: "landsby",
+    description: "Fiskeriby på vejen mellem Vestmanna og Tórshavn. Den sorte trækirke fra 1837 er helt upyntet indvendig på nær et par blå streger på prædikestolen — og et lille skib hængt op til minde om en 25-årig der druknede ud for Island.",
+    tips: "~20 min fra Vestmanna, på hovedvejen mod Tórshavn. Marsvin (bottlenose-hvaler) ses ind imellem i fjorden, især i september. Supermarked og café i byen — fint stop undervejs.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Church_of_Kollafj%C3%B8r%C3%B0ur%2C_Faroe_Islands.JPG/960px-Church_of_Kollafj%C3%B8r%C3%B0ur%2C_Faroe_Islands.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File%3AChurch_of_Kollafj%C3%B8r%C3%B0ur%2C_Faroe_Islands.JPG",
+    sources: ["en.wikipedia.org", "visitfaroeislands.com"],
+    mustSee: false, visited: false
+  },
+  {
     id: "torshavn",
     name: "Tórshavn & Tinganes",
     island: "Streymoy",
