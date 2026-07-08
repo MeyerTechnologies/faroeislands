@@ -145,6 +145,28 @@ window.FAROE_ATTRACTIONS = [
     mustSee: true, visited: false
   },
   {
+    id: "sagamuseum-vestmanna",
+    name: "SagaMuseum (voksmuseum)",
+    island: "Streymoy",
+    lat: 62.15338, lng: -7.15046,
+    category: "kultur",
+    description: "Færøernes eneste voksmuseum, i Vestmanna Tourist Centre. 17 livagtige figurer fører dig gennem øernes historie fra de første irske munke til 1700-tallet — flere scener er ret grafiske (henrettelser, tortur, skrig).",
+    tips: "LIGE VED BASEN! Åbent alle dage om sommeren kl. 9-17. Lydguide inkluderet (også på dansk). Rabat hvis man køber billet sammen med fugleklippe-bådturen (samme sted). Restaurant og gavebutik i centret.",
+    sources: ["visitfaroeislands.com", "visit-vestmanna.com", "tripadvisor.com"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "vestmanna-daemning",
+    name: "Dæmningerne ved Vestmanna (Á Fjørð)",
+    island: "Streymoy",
+    lat: 62.16853, lng: -7.14943,
+    category: "vandretur",
+    description: "Kort gåtur op til den nærmeste af SEV's fire dæmninger/reservoirer i bjergene over Vestmanna — regnvand fra højlandet ledes herfra ned gennem rør til byens tre vandkraftværker. Flot udsigt over fjorden og bygden fra dæmningskronen.",
+    tips: "LIGE VED BASEN! Kør op ad vejen Á Fjørð (almindelig bil kan køre helt derop) eller gå. Kan forlænges til en rigtig vandretur: dæmningen er første etape på den klassiske rute Hvalvík–Vestmanna (følg vardestien videre til Gjógvará og ned ad Miðalsbrekka, ca. 3-4 t i alt — kræver planlagt afhentning/bil i Hvalvík).",
+    sources: ["visitfaroeislands.com", "sev.fo", "bruger-tip 2026-07-08"],
+    mustSee: false, visited: false
+  },
+  {
     id: "faer-isles-distillery",
     name: "Faer Isles Distillery",
     island: "Streymoy",
