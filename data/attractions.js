@@ -267,6 +267,19 @@ window.FAROE_ATTRACTIONS = [
     mustSee: true, visited: false
   },
   {
+    id: "kvivik",
+    name: "Kvívík",
+    island: "Streymoy",
+    lat: 62.11962, lng: -7.07638,
+    category: "landsby",
+    description: "En af Færøernes ældste bosættelser — her fandt man i 1940'erne det første udgravede vikingelanghus i landet (fra ca. 900-tallet), sammen med en usædvanlig stor lade. Bygden ligger ved åen Stórá, som løber gennem dalen ud til havet.",
+    tips: "Selve udgravningen (skálin) ligger tæt på kysten og kan ses gratis. De udgravede genstande (redskaber, legetøj, vægtlodder) findes på Tjóðsavnið (Historisk Museum) i Tórshavn. Kombinér med Kvívík-udsigtspunktet lige udenfor byen.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Kv%C3%ADv%C3%ADk_Faroe_Islands_the_river_and_the_village.JPG/960px-Kv%C3%ADv%C3%ADk_Faroe_Islands_the_river_and_the_village.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File%3AKv%C3%ADv%C3%ADk_Faroe_Islands_the_river_and_the_village.JPG",
+    sources: ["visitfaroeislands.com", "trap.fo", "en.wikipedia.org"],
+    mustSee: false, visited: false
+  },
+  {
     id: "kvivik-viewpoint",
     name: "Kvívík-udsigtspunktet",
     island: "Streymoy",
