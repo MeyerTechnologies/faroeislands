@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Færø-kortet — juli 2026</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --text: #1a1d24;
+    --text-dim: #6b7280;
+    --accent: #4f52b8;
+    --done: #16a34a;
+    --border: #e5e7eb;
+    --radius: 10px;
+    --shadow: 0 1px 3px rgba(16,24,40,.08), 0 4px 16px rgba(16,24,40,.06);
+    --font: "Avenir Next", "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body { font-family: var(--font); background: var(--bg); color: var(--text); display: flex; flex-direction: column; }
+
+  header {
+    display: flex; align-items: center; gap: 16px;
+    padding: 12px 20px; background: var(--surface); box-shadow: var(--shadow); z-index: 1001;
+  }
+  header h1 { font-size: 17px; font-weight: 700; letter-spacing: -.01em; }
+  header .sub { font-size: 12.5px; color: var(--text-dim); }
+  .progress-wrap { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+  .progress-bar { width: 160px; height: 8px; border-radius: 99px; background: var(--border); overflow: hidden; }
+  .progress-bar > div { height: 100%; background: var(--done); border-radius: 99px; transition: width .3s; }
+  .progress-label { font-size: 12.5px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+  header button {
+    font: inherit; font-size: 12.5px; font-weight: 600; color: var(--accent);
+    background: none; border: 0; padding: 8px 12px; border-radius: 8px; cursor: pointer;
+  }
+  header button:hover { background: #eef0fb; }
+
+  main { flex: 1; display: flex; min-height: 0; }
+  #map { flex: 1; }
+
+  aside {
+    width: 340px; background: var(--surface); box-shadow: var(--shadow);
+    display: flex; flex-direction: column; z-index: 1000;
+  }
+  .panel-top { padding: 12px 14px 8px; }
+  .panel-top input {
+    width: 100%; font: inherit; font-size: 13.5px; padding: 9px 12px;
+    border: 0; border-radius: 8px; background: var(--bg); outline: 2px solid transparent;
+  }
+  .panel-top input:focus { outline-color: var(--accent); }
+  .filters { display: flex; flex-wrap: wrap; gap: 5px; padding: 4px 14px 10px; }
+  .chip {
+    font-size: 11.5px; font-weight: 600; padding: 4px 9px; border-radius: 99px;
+    border: 0; cursor: pointer; color: #fff; opacity: .35; transition: opacity .15s;
+  }
+  .chip.on { opacity: 1; }
+  .toggle-row { display: flex; gap: 12px; padding: 0 14px 10px; font-size: 12px; color: var(--text-dim); }
+  .toggle-row label { display: flex; align-items: center; gap: 5px; cursor: pointer; white-space: nowrap; }
+
+  #list { flex: 1; overflow-y: auto; padding: 0 8px 16px; }
+  .island-head {
+    font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em;
+    color: var(--text-dim); padding: 14px 8px 6px;
+  }
+  .item {
+    display: flex; align-items: center; gap: 10px; padding: 8px; border-radius: 8px; cursor: pointer;
+  }
+  .item:hover { background: var(--bg); }
+  .item .dot { width: 10px; height: 10px; border-radius: 99px; flex: none; }
+  .item .nm { font-size: 13.5px; font-weight: 500; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .item.done .nm { color: var(--text-dim); text-decoration: line-through; text-decoration-color: rgba(107,114,128,.5); }
+  .item .star { color: #d97706; font-size: 12px; }
+  .item .check {
+    width: 20px; height: 20px; border-radius: 99px; flex: none;
+    border: 1.5px solid var(--border); display: grid; place-items: center;
+    color: transparent; font-size: 12px; transition: all .15s;
+  }
+  .item.done .check { background: var(--done); border-color: var(--done); color: #fff; }
+
+  /* Markører */
+  .pin { display: grid; place-items: center; }
+  .pin span {
+    width: 26px; height: 26px; border-radius: 99px; display: grid; place-items: center;
+    color: #fff; font-size: 13px; border: 2px solid #fff;
+    box-shadow: 0 2px 6px rgba(16,24,40,.35); transition: transform .1s;
+  }
+  .pin:hover span { transform: scale(1.15); }
+  .pin.visited span { background: var(--done) !important; }
+  .pin.must span { box-shadow: 0 0 0 3px rgba(217,119,6,.55), 0 2px 6px rgba(16,24,40,.35); }
+
+  /* Popup */
+  .leaflet-popup-content-wrapper { border-radius: var(--radius); box-shadow: var(--shadow); }
+  .leaflet-popup-content { margin: 14px 16px; font-family: var(--font); width: 260px !important; }
+  .pp-img { display: block; width: 100%; height: 130px; object-fit: cover; border-radius: 8px; margin-bottom: 9px; background: var(--bg); }
+  .pp-cat { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+  .pp h3 { font-size: 15.5px; margin: 3px 0 1px; letter-spacing: -.01em; }
+  .pp .isl { font-size: 12px; color: var(--text-dim); margin-bottom: 7px; }
+  .pp .desc { font-size: 12.8px; line-height: 1.45; margin-bottom: 7px; }
+  .pp .tips { font-size: 12px; line-height: 1.4; color: var(--text-dim); background: var(--bg); padding: 7px 9px; border-radius: 7px; margin-bottom: 7px; }
+  .pp .src { font-size: 10.5px; color: var(--text-dim); margin-bottom: 10px; }
+  .pp .visit-btn {
+    width: 100%; font: inherit; font-size: 13px; font-weight: 600; padding: 9px;
+    border: 0; border-radius: 8px; cursor: pointer; background: var(--accent); color: #fff;
+  }
+  .pp .visit-btn.undo { background: var(--bg); color: var(--text); }
+  .pp .gm { display: block; text-align: center; font-size: 11.5px; color: var(--accent); margin-top: 7px; text-decoration: none; }
+
+  dialog {
+    border: 0; border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px;
+    width: min(640px, 90vw); font-family: var(--font);
+  }
+  dialog h2 { font-size: 15px; margin-bottom: 8px; }
+  dialog p { font-size: 12.5px; color: var(--text-dim); margin-bottom: 10px; }
+  dialog textarea { width: 100%; height: 300px; font: 11px/1.5 ui-monospace, monospace; border: 1px solid var(--border); border-radius: 8px; padding: 10px; }
+  dialog .close { float: right; }
+
+  @media (max-width: 760px) {
+    main { flex-direction: column; }
+    aside { width: 100%; height: 45%; order: 2; }
+    .progress-bar { width: 80px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Færøerne · juli 2026</h1>
+    <div class="sub">Base: Vestmanna · med bil</div>
+  </div>
+  <div class="progress-wrap">
+    <div class="progress-bar"><div id="pbar"></div></div>
+    <div class="progress-label" id="plabel"></div>
+    <button id="exportBtn">Eksportér status</button>
+  </div>
+</header>
+
+<main>
+  <aside>
+    <div class="panel-top"><input id="search" type="search" placeholder="Søg sted, ø eller stikord…"></div>
+    <div class="filters" id="filters"></div>
+    <div class="toggle-row">
+      <label><input type="checkbox" id="hideDone"> Skjul set</label>
+      <label><input type="checkbox" id="onlyDone"> Kun set</label>
+      <label><input type="checkbox" id="onlyMust"> Kun must-see</label>
+    </div>
+    <div id="list"></div>
+  </aside>
+  <div id="map"></div>
+</main>
+
+<dialog id="exportDlg">
+  <button class="close" onclick="exportDlg.close()">Luk</button>
+  <h2>Opdateret attractions-JSON</h2>
+  <p>Kopiér og erstat arrayet i <code>data/attractions.js</code> for at gemme "set"-status permanent (på tværs af enheder).</p>
+  <textarea id="exportTa" readonly onclick="this.select()"></textarea>
+</dialog>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data/attractions.js"></script>
+<script>
+const CATS = {
+  natur:     { label: "Natur",      color: "#16a34a", icon: "◆" },
+  vandretur: { label: "Vandretur",  color: "#ea580c", icon: "▲" },
+  landsby:   { label: "Landsby",    color: "#2563eb", icon: "⌂" },
+  udsigt:    { label: "Udsigt",     color: "#9333ea", icon: "◉" },
+  kultur:    { label: "Kultur",     color: "#92600e", icon: "♦" },
+  mad:       { label: "Mad",        color: "#dc2626", icon: "●" },
+  aktivitet: { label: "Aktivitet",  color: "#0d9488", icon: "■" },
+  fugle:     { label: "Fugle",      color: "#0891b2", icon: "❯" },
+};
+const LS_KEY = "faroe-visited-v1";
+const data = window.FAROE_ATTRACTIONS || [];
+
+// visited = union af datafil + localStorage-overlay {id: true/false}
+const overlay = JSON.parse(localStorage.getItem(LS_KEY) || "{}");
+const isVisited = a => overlay[a.id] !== undefined ? overlay[a.id] : !!a.visited;
+const setVisited = (a, v) => { overlay[a.id] = v; localStorage.setItem(LS_KEY, JSON.stringify(overlay)); refresh(); };
+
+// ---- Kort ----
+const map = L.map("map", { zoomControl: false }).setView([62.05, -6.95], 9);
+L.control.zoom({ position: "bottomright" }).addTo(map);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 18, attribution: '&copy; OpenStreetMap'
+}).addTo(map);
+// Hjemmebase
+L.circleMarker([62.155, -7.17], { radius: 7, color: "#1a1d24", weight: 2, fillColor: "#fff", fillOpacity: 1 })
+  .addTo(map).bindTooltip("Base: Vestmanna", { permanent: false });
+
+const activeCats = new Set(Object.keys(CATS));
+const markers = {};
+
+function makeIcon(a) {
+  const c = CATS[a.category] || CATS.natur;
+  const v = isVisited(a);
+  return L.divIcon({
+    className: "",
+    html: `<div class="pin ${v ? "visited" : ""} ${a.mustSee ? "must" : ""}">
+             <span style="background:${c.color}">${v ? "✓" : c.icon}</span></div>`,
+    iconSize: [30, 30], iconAnchor: [15, 15], popupAnchor: [0, -14],
+  });
+}
+
+function popupHtml(a) {
+  const c = CATS[a.category] || CATS.natur;
+  const v = isVisited(a);
+  return `<div class="pp">
+    ${a.image ? `<a href="${a.imagePage || a.image}" target="_blank" title="Foto: Wikimedia Commons — klik for kilde/fotograf"><img class="pp-img" src="${a.image}" alt="${a.name}" loading="lazy"></a>` : ""}
+    <div class="pp-cat" style="color:${c.color}">${c.label}${a.mustSee ? " · ★ must-see" : ""}</div>
+    <h3>${a.name}</h3>
+    <div class="isl">${a.island}</div>
+    <div class="desc">${a.description}</div>
+    ${a.tips ? `<div class="tips">${a.tips}</div>` : ""}
+    <div class="src">Kilder: ${(a.sources || []).join(" · ")}</div>
+    <button class="visit-btn ${v ? "undo" : ""}" onclick="toggleVisit('${a.id}')">
+      ${v ? "Fjern markering" : "✓ Markér som set"}</button>
+    <a class="gm" target="_blank" href="https://maps.google.com/?q=${a.lat},${a.lng}">Åbn i Google Maps →</a>
+  </div>`;
+}
+
+window.toggleVisit = id => { const a = data.find(x => x.id === id); if (a) setVisited(a, !isVisited(a)); };
+
+data.forEach(a => {
+  markers[a.id] = L.marker([a.lat, a.lng], { icon: makeIcon(a) })
+    .bindPopup(() => popupHtml(a))
+    .bindTooltip(a.name, { direction: "top", offset: [0, -14] });
+});
+
+// ---- Filtre / liste ----
+const filtersEl = document.getElementById("filters");
+Object.entries(CATS).forEach(([key, c]) => {
+  const b = document.createElement("button");
+  b.className = "chip on"; b.textContent = c.label; b.style.background = c.color;
+  b.onclick = () => { activeCats.has(key) ? activeCats.delete(key) : activeCats.add(key);
+                      b.classList.toggle("on"); refresh(); };
+  filtersEl.appendChild(b);
+});
+
+const searchEl = document.getElementById("search");
+const hideDoneEl = document.getElementById("hideDone");
+const onlyDoneEl = document.getElementById("onlyDone");
+const onlyMustEl = document.getElementById("onlyMust");
+[searchEl, hideDoneEl, onlyDoneEl, onlyMustEl].forEach(el => el.addEventListener("input", refresh));
+// "skjul set" og "kun set" udelukker hinanden
+hideDoneEl.addEventListener("input", () => { if (hideDoneEl.checked) { onlyDoneEl.checked = false; refresh(); } });
+onlyDoneEl.addEventListener("input", () => { if (onlyDoneEl.checked) { hideDoneEl.checked = false; refresh(); } });
+
+function visible(a) {
+  if (!activeCats.has(a.category)) return false;
+  if (hideDoneEl.checked && isVisited(a)) return false;
+  if (onlyDoneEl.checked && !isVisited(a)) return false;
+  if (onlyMustEl.checked && !a.mustSee) return false;
+  const q = searchEl.value.trim().toLowerCase();
+  if (q && !`${a.name} ${a.island} ${a.description} ${a.tips}`.toLowerCase().includes(q)) return false;
+  return true;
+}
+
+function refresh() {
+  const listEl = document.getElementById("list");
+  listEl.innerHTML = "";
+  const byIsland = {};
+  let shown = 0;
+
+  data.forEach(a => {
+    const show = visible(a);
+    const m = markers[a.id];
+    if (show) { m.setIcon(makeIcon(a)); if (!map.hasLayer(m)) m.addTo(map); shown++; (byIsland[a.island] ??= []).push(a); }
+    else if (map.hasLayer(m)) map.remove ? map.removeLayer(m) : m.remove();
+  });
+
+  Object.keys(byIsland).sort().forEach(isl => {
+    const h = document.createElement("div"); h.className = "island-head"; h.textContent = isl;
+    listEl.appendChild(h);
+    byIsland[isl].sort((x, y) => x.name.localeCompare(y.name, "da")).forEach(a => {
+      const c = CATS[a.category] || CATS.natur;
+      const row = document.createElement("div");
+      row.className = "item" + (isVisited(a) ? " done" : "");
+      row.innerHTML = `<span class="dot" style="background:${c.color}"></span>
+        <span class="nm">${a.name}</span>${a.mustSee ? '<span class="star">★</span>' : ""}
+        <span class="check">✓</span>`;
+      row.onclick = e => {
+        if (e.target.classList.contains("check")) { setVisited(a, !isVisited(a)); return; }
+        map.flyTo([a.lat, a.lng], Math.max(map.getZoom(), 12), { duration: .6 });
+        markers[a.id].openPopup();
+      };
+      listEl.appendChild(row);
+    });
+  });
+
+  const done = data.filter(isVisited).length;
+  document.getElementById("pbar").style.width = (data.length ? 100 * done / data.length : 0) + "%";
+  document.getElementById("plabel").textContent = `${done} / ${data.length} set`;
+
+  // genåbn popup med frisk indhold hvis åben
+  data.forEach(a => { const m = markers[a.id]; if (m.isPopupOpen()) m.setPopupContent(popupHtml(a)); });
+}
+
+// ---- Eksport ----
+document.getElementById("exportBtn").onclick = () => {
+  const out = data.map(a => ({ ...a, visited: isVisited(a) }));
+  document.getElementById("exportTa").value =
+    "window.FAROE_ATTRACTIONS = " + JSON.stringify(out, null, 2) + ";";
+  document.getElementById("exportDlg").showModal();
+};
+
+refresh();
+</script>
+</body>
+</html>
