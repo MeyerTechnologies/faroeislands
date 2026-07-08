@@ -167,6 +167,17 @@ window.FAROE_ATTRACTIONS = [
     mustSee: false, visited: false
   },
   {
+    id: "skavagil-vestmanna",
+    name: "Skavagil (Melin & Hægstafjall)",
+    island: "Streymoy",
+    lat: 62.15718, lng: -7.19778,
+    category: "vandretur",
+    description: "Kort bjergvandring op gennem kløften Skavagil til passet mellem de to toppe Melin (293 m) og Hægstafjall (296 m) vest for Vestmanna — udsigt ned over sundet/bugten som skærer ind til byen.",
+    tips: "LIGE VED BASEN! Start fra Vestmanna (fx den øverste vej i byen) og følg kløften op mellem de to fjelde. Ingen officielt afmærket sti — tjek retning/vejr før du går, og hav godt fodtøj på grund af løs sten og fugtige partier.",
+    sources: ["OpenStreetMap", "bruger-tip 2026-07-08"],
+    mustSee: false, visited: false
+  },
+  {
     id: "faer-isles-distillery",
     name: "Faer Isles Distillery",
     island: "Streymoy",
