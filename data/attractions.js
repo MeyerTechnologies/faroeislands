@@ -935,11 +935,11 @@ window.FAROE_ATTRACTIONS = [
   {
     id: "helikopter-atlantic",
     name: "Helikoptertur (Atlantic Airways)",
-    island: "Eysturoy",
-    lat: 62.11670, lng: -6.67650, // symbolsk punkt midt mellem Tórshavn og Klaksvík — ruteflyvning, ikke ét sted
+    island: "Borðoy",
+    lat: 62.21763, lng: -6.57637, // Klaksvík Heliport (EKKV), Fossabrúgv
     category: "aktivitet",
-    description: "Statsstøttet rutehelikopter (AW139) mellem øerne — sightseeing i verdensklasse til rutebus-pris. Fx Tórshavn-Klaksvík eller ud til småøerne.",
-    tips: "Book tidligt på atlanticairways.com — få afgange (typisk man/ons/fre/søn) og små maskiner. OBS: man må kun flyve ÉN vej pr. dag (ingen retur samme dag) — planlæg hjemtur med bus/færge/bil. Afgang i Tórshavn fra Boðanes-heliporten.",
+    description: "Statsstøttet rutehelikopter (AW139) mellem øerne — sightseeing i verdensklasse til rutebus-pris. Fx Klaksvík-Tórshavn eller ud til småøerne.",
+    tips: "Punktet står på heliporten i Klaksvík (Fossabrúgv). Book tidligt på atlanticairways.com — få afgange (typisk man/ons/fre/søn) og små maskiner. OBS: man må kun flyve ÉN vej pr. dag (ingen retur samme dag) — planlæg hjemtur med bus/færge/bil. Afgang i Tórshavn fra Boðanes-heliporten.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Atlantic_Airways_AgustaWestland_AW139.jpg/960px-Atlantic_Airways_AgustaWestland_AW139.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AAtlantic_Airways_AgustaWestland_AW139.jpg",
     sources: ["atlanticairways.com", "bruger-ønske 2026-07-07"],
