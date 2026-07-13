@@ -296,7 +296,7 @@ window.FAROE_ATTRACTIONS = [
     id: "leynar",
     name: "Leynar",
     island: "Streymoy",
-    lat: 62.11500, lng: -7.01600,
+    lat: 62.11700, lng: -7.04086, // bygden (OSM-verificeret 2026-07-13 — lå tidligere 1,3 km inde i landet)
     category: "aktivitet",
     description: "Strandby på vestkysten, populær blandt lokale. Udgangspunkt for havkajakture gennem klippesøjler og huler.",
     tips: "Kajakk Faroe Islands (guide Sigurd) — vejrafhængigt med alternative lokationer. Tæt på Vestmanna.",
