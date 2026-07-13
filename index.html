@@ -106,7 +106,20 @@
     border: 0; border-radius: 8px; cursor: pointer; background: var(--accent); color: #fff;
   }
   .pp .visit-btn.undo { background: var(--bg); color: var(--text); }
+  .pp .route-btn { margin-top: 6px; background: var(--surface); color: var(--accent); border: 1.5px solid var(--accent); }
+  .pp .route-btn.on { background: #eef0fb; }
   .pp .gm { display: block; text-align: center; font-size: 11.5px; color: var(--accent); margin-top: 7px; text-decoration: none; }
+
+  /* Rutedetaljer (tegnes via toggleRoute) */
+  .rt-dot {
+    width: 28px; height: 28px; border-radius: 99px; color: #fff;
+    display: grid; place-items: center; font: 700 14px var(--font);
+    border: 3px solid #fff; box-shadow: 0 2px 6px rgba(16,24,40,.4);
+  }
+  .rt-note {
+    color: #fff; font: 700 11.5px var(--font); padding: 3px 8px; border-radius: 6px;
+    white-space: nowrap; box-shadow: 0 1px 4px rgba(16,24,40,.3);
+  }
 
   dialog {
     border: 0; border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px;
@@ -217,11 +230,41 @@ function popupHtml(a) {
     <div class="src">Kilder: ${(a.sources || []).join(" · ")}</div>
     <button class="visit-btn ${v ? "undo" : ""}" onclick="toggleVisit('${a.id}')">
       ${v ? "Fjern markering" : "✓ Markér som set"}</button>
+    ${a.routeDetails ? `<button class="visit-btn route-btn ${routeLayers[a.id] ? "on" : ""}" onclick="toggleRoute('${a.id}')">
+      ${routeLayers[a.id] ? "Skjul rutedetaljer" : "🥾 Vis rutedetaljer på kortet"}</button>` : ""}
     <a class="gm" target="_blank" href="https://maps.google.com/?q=${a.lat},${a.lng}">Åbn i Google Maps →</a>
   </div>`;
 }
 
 window.toggleVisit = id => { const a = data.find(x => x.id === id); if (a) setVisited(a, !isVisited(a)); };
+
+// ---- Rutedetaljer: tegnes/fjernes pr. punkt via knap i popup ----
+const routeLayers = {};
+window.toggleRoute = id => {
+  const a = data.find(x => x.id === id);
+  if (!a || !a.routeDetails) return;
+  if (routeLayers[id]) {
+    map.removeLayer(routeLayers[id]);
+    delete routeLayers[id];
+  } else {
+    const g = L.layerGroup();
+    a.routeDetails.forEach(el => {
+      if (el.kind === "line") {
+        g.addLayer(L.polyline(el.points, { color: el.color || "#ea580c", weight: 5, dashArray: "10 8", opacity: .9 }));
+      } else if (el.kind === "dot") {
+        g.addLayer(L.marker(el.at, { icon: L.divIcon({ className: "", iconSize: [28, 28], iconAnchor: [14, 14],
+          html: `<div class="rt-dot" style="background:${el.color || "#1a1d24"}">${el.text}</div>` }) }));
+      } else if (el.kind === "note") {
+        g.addLayer(L.marker(el.at, { icon: L.divIcon({ className: "", iconSize: [1, 1], iconAnchor: el.anchor || [0, 14],
+          html: `<div class="rt-note" style="background:${el.color || "#ea580c"}">${el.text}</div>` }) }));
+      }
+    });
+    g.addTo(map);
+    routeLayers[id] = g;
+  }
+  const m = markers[id];
+  if (m && m.isPopupOpen()) m.setPopupContent(popupHtml(a));
+};
 
 data.forEach(a => {
   markers[a.id] = L.marker([a.lat, a.lng], { icon: makeIcon(a) })

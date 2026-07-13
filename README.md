@@ -43,6 +43,11 @@ skal du **kun** gøre følgende:
   tips: "Praktisk: gebyr, parkering, timing…", // valgfri, "" hvis intet
   image: "https://upload.wikimedia.org/…",     // valgfri: KUN Wikimedia Commons-thumb (stabil + fri licens; aldrig hotlink fra Google/private sites). Udelad hellere end at gætte.
   imagePage: "https://commons.wikimedia.org/wiki/File%3A…", // valgfri: Commons-filside (kredit/licens), følges med image
+  routeDetails: [                  // valgfri: tegnbare rutedetaljer — popup får en "Vis rutedetaljer"-knap
+    { kind: "line", color: "#ea580c", points: [[62.1,-7.0], [62.2,-7.1]] }, // stiplet rute (ca. forløb)
+    { kind: "dot",  at: [62.1,-7.0], text: "P", color: "#1a1d24" },         // cirkelbadge (parkering, vendepunkt…)
+    { kind: "note", at: [62.1,-7.0], text: "Parkér her", color: "#1a1d24", anchor: [0,14] } // tekstlabel; anchor = px-offset
+  ],
   sources: ["guidetofaroeislands.fo", "bruger-tip 2026-07-08"], // PÅKRÆVET, min. 1
   mustSee: false,                  // true = fremhævet med stjerne
   visited: false                   // styres normalt fra appen

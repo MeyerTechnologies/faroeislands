@@ -315,6 +315,12 @@ window.FAROE_ATTRACTIONS = [
     tips: "~12 min fra Vestmanna. Nem at stoppe ved på vejen — kort gåtur langs bredden. Kombinér med Leynar-stranden 1,5 km væk.",
     image: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Leynavatn.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ALeynavatn.jpg",
+    routeDetails: [ // flad gåtur fra Leynar op langs Dalá til søen (ca. forløb)
+      { kind: "line", color: "#2563eb", points: [[62.1173,-7.0400],[62.1200,-7.0360],[62.1230,-7.0310],[62.1255,-7.0270],[62.1284,-7.0227]] },
+      { kind: "dot",  at: [62.1173,-7.0400], text: "P", color: "#1a1d24" },
+      { kind: "note", at: [62.1173,-7.0400], text: "Parkér langs rute 11 i Leynar", color: "#1a1d24", anchor: [-18, 12] },
+      { kind: "note", at: [62.1235,-7.0305], text: "Flad tur langs Dalá, t/r ~40 min", color: "#2563eb", anchor: [-10, 6] }
+    ],
     sources: ["guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -955,6 +961,14 @@ window.FAROE_ATTRACTIONS = [
     tips: "Velholdte varder hele vejen — men sti-starten i begge bygder er dårligt markeret. Parkering: langs hovedvejen i Leynar / ved Búnaðarstovan i Kollafjørður. Børneventlig; græssti med dybe mudderhuller nær Leynar — godt fodtøj. ~10 min kørsel fra Vestmanna til Leynar-enden. KUN ÉN BIL? Enten (a) gå tur/retur til basaltformationerne og udsigten ved Stórareyn på midten (~1,5-2 t, ~250 hm), eller (b) tag bussen tilbage ad rute 11 — tjek køreplan på ssl.fo.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Sk%C3%A6lingur_and_the_West_Coast_of_Streymoy_Faroe_Islands.JPG/960px-Sk%C3%A6lingur_and_the_West_Coast_of_Streymoy_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ASk%C3%A6lingur_and_the_West_Coast_of_Streymoy_Faroe_Islands.JPG",
+    routeDetails: [ // ca. forløb — følg varderne på selve turen
+      { kind: "line", color: "#ea580c", points: [[62.1173,-7.0400],[62.1158,-7.0290],[62.1150,-7.0160],[62.1148,-7.0000],[62.1148,-6.9880],[62.1148,-6.9760]] },
+      { kind: "dot",  at: [62.1173,-7.0400], text: "P", color: "#1a1d24" },
+      { kind: "note", at: [62.1173,-7.0400], text: "Parkér langs rute 11 i Leynar", color: "#1a1d24", anchor: [-18, 12] },
+      { kind: "note", at: [62.1152,-7.0100], text: "Gå mod øst → følg varderne (~250 hm op)", color: "#ea580c", anchor: [100, -16] },
+      { kind: "dot",  at: [62.1148,-6.9760], text: "⟲", color: "#ea580c" },
+      { kind: "note", at: [62.1148,-6.9760], text: "Vend her (ca. midtvejs): Stórareyn — basalt + udsigt", color: "#ea580c", anchor: [240, 32] }
+    ],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
