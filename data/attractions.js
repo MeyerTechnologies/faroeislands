@@ -952,7 +952,7 @@ window.FAROE_ATTRACTIONS = [
     lat: 62.11620, lng: -6.95900, // sti-midtpunkt
     category: "vandretur",
     description: "Gammel bygdesti tværs over midt-Streymoy: 5 km, ca. 1,5 time, middel. Undervejs: søjlebasalt ved Stórareyn, kløfter og udsigt til Koltur, Sandoy og Skælingsfjall (767 m).",
-    tips: "Velholdte varder hele vejen — men sti-starten i begge bygder er dårligt markeret. Parkering: langs hovedvejen i Leynar / ved Búnaðarstovan i Kollafjørður. Børneventlig; græssti med dybe mudderhuller nær Leynar — godt fodtøj. ~10 min kørsel fra Vestmanna til Leynar-enden.",
+    tips: "Velholdte varder hele vejen — men sti-starten i begge bygder er dårligt markeret. Parkering: langs hovedvejen i Leynar / ved Búnaðarstovan i Kollafjørður. Børneventlig; græssti med dybe mudderhuller nær Leynar — godt fodtøj. ~10 min kørsel fra Vestmanna til Leynar-enden. KUN ÉN BIL? Enten (a) gå tur/retur til basaltformationerne og udsigten ved Stórareyn på midten (~1,5-2 t, ~250 hm), eller (b) tag bussen tilbage ad rute 11 — tjek køreplan på ssl.fo.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Sk%C3%A6lingur_and_the_West_Coast_of_Streymoy_Faroe_Islands.JPG/960px-Sk%C3%A6lingur_and_the_West_Coast_of_Streymoy_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ASk%C3%A6lingur_and_the_West_Coast_of_Streymoy_Faroe_Islands.JPG",
     sources: ["visitfaroeislands.com"],
