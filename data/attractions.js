@@ -945,6 +945,32 @@ window.FAROE_ATTRACTIONS = [
     sources: ["atlanticairways.com", "bruger-ønske 2026-07-07"],
     mustSee: false, visited: false
   },
+  {
+    id: "leynar-kollafjordur-hike",
+    name: "Bygdesti Leynar–Kollafjørður",
+    island: "Streymoy",
+    lat: 62.11620, lng: -6.95900, // sti-midtpunkt
+    category: "vandretur",
+    description: "Gammel bygdesti tværs over midt-Streymoy: 5 km, ca. 1,5 time, middel. Undervejs: søjlebasalt ved Stórareyn, kløfter og udsigt til Koltur, Sandoy og Skælingsfjall (767 m).",
+    tips: "Velholdte varder hele vejen — men sti-starten i begge bygder er dårligt markeret. Parkering: langs hovedvejen i Leynar / ved Búnaðarstovan i Kollafjørður. Børneventlig; græssti med dybe mudderhuller nær Leynar — godt fodtøj. ~10 min kørsel fra Vestmanna til Leynar-enden.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Sk%C3%A6lingur_and_the_West_Coast_of_Streymoy_Faroe_Islands.JPG/960px-Sk%C3%A6lingur_and_the_West_Coast_of_Streymoy_Faroe_Islands.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File%3ASk%C3%A6lingur_and_the_West_Coast_of_Streymoy_Faroe_Islands.JPG",
+    sources: ["visitfaroeislands.com"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "kollafjordur-skaelingur-hike",
+    name: "Bygdesti Kollafjørður–Skælingur",
+    island: "Streymoy",
+    lat: 62.10627, lng: -6.95474, // sti-midtpunkt
+    category: "vandretur",
+    description: "Længere bygdesti (ca. 5 timer) forbi foden af Skælingsfjall — engang anset for Færøernes højeste bjerg. Flot udsigt over Vestmannasund og Vágar det meste af vejen.",
+    tips: "Gå MOD Skælingur — så starter man højt, og udsigten er bedst. Varder det meste af vejen, men enderne er dårligt markeret (fra Kollafjørður: første varde ses lige efter vejen). God parkering ved stistarten i Skælingur. Kræver to biler eller afhentning.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sk%C3%A6lingsfjall%2C_Streymoy_%28faroe_islands%29.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File%3ASk%C3%A6lingsfjall%2C_Streymoy_(faroe_islands).jpg",
+    sources: ["visitfaroeislands.com", "hikewithpol.fo"],
+    mustSee: false, visited: false
+  },
 
   // ---------- TILFØJET 2026-07-08 (stort lokalt tip-dokument fra færøsk ven) ----------
   {
