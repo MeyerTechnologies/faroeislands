@@ -123,7 +123,7 @@ window.FAROE_ATTRACTIONS = [
     lat: 62.10451, lng: -7.60465,
     category: "fugle",
     description: "Fuglenes paradis — Færøernes største lundekoloni med titusindvis af søpapegøjer og suler. Vandretur til fyrtårnet på Mykineshólmur.",
-    tips: "Book færge/helikopter i MEGET god tid (udsolgt i højsæson). Adgangsgebyr for vandreturen. Kun maj-august. OBS: risiko for aflyste afgange i dårligt vejr — man kan strande på øen. Alternativer til lunder: Eiði-området eller Skúvoy.",
+    tips: "Færgen Jósup fra Sørvágur (45 min, dagligt maj-aug): 600 kr/voksen (16+), 300 kr/barn 0-15 — inkl. sightseeing forbi Múlafossur/Drangarnir/Tindhólmur på hjemturen. Book på mykines.fo i MEGET god tid (udsolgt uger frem i juli). Vandregebyr 400 kr/person forudbetalt på hiking.fo (500 kr på øen) hvis man går ud mod fyret. OBS: risiko for aflyste afgange i dårligt vejr — man kan strande på øen. Alternativ: Puffin.fo sejler Mykines-ture direkte fra Vestmanna. Lunde-alternativer: Eiði-området eller Skúvoy.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Mykinesh%C3%B3lmur_1.jpg/960px-Mykinesh%C3%B3lmur_1.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AMykinesh%C3%B3lmur_1.jpg",
     sources: ["visitfaroeislands.com", "heritagewanderlust.com", "lokalt tip (færøsk ven) 2026-07-08"],
@@ -138,7 +138,7 @@ window.FAROE_ATTRACTIONS = [
     lat: 62.17500, lng: -7.23300, // selve klipperne på NV-kysten — bådene sejler derud fra Vestmanna havn
     category: "fugle",
     description: "Lodrette havklipper på op til 600 meter med lunder, lomvier, mallemukker og rider. Bådturen sejler helt ind i grotter og smalle kløfter.",
-    tips: "LIGE VED BASEN! Afgang fra Vestmanna havn, april-september, ture morgen og eftermiddag (ca. 90 min). Book på forhånd men vurdér vejret — tåge ødelægger sigtbarheden. Varmt tøj på vandet.",
+    tips: "LIGE VED BASEN! Afgang fra Vestmanna havn (Puffin.fo, ca. 90 min): 225 kr/voksen, 125 kr/barn 6-13 år, ingen minimumsalder. Fire daglige afgange kl. 9.40, 14.00, 17.00 og 20.00 — de to sene kan nås EFTER kl. 16. Book på forhånd men vurdér vejret — tåge ødelægger sigtbarheden. Varmt tøj på vandet. Kombirabat med SagaMuseum.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Vestmannabj%C3%B8rgini%2C_Faroe_Islands_%287%29.JPG/960px-Vestmannabj%C3%B8rgini%2C_Faroe_Islands_%287%29.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AVestmannabj%C3%B8rgini%2C_Faroe_Islands_(7).JPG",
     sources: ["guidetofaroeislands.fo", "visitfaroeislands.com", "heritagewanderlust.com", "lokalt tip (færøsk ven) 2026-07-08"],
@@ -178,6 +178,39 @@ window.FAROE_ATTRACTIONS = [
     mustSee: false, visited: false
   },
   {
+    id: "vestmanna-mountain-hike",
+    name: "Bjergvandring Postalakirkja & Tindur (guidet)",
+    island: "Streymoy",
+    lat: 62.18200, lng: -7.18500, // ca. — toppene i fjeldene nord for Vestmanna
+    category: "vandretur",
+    description: "Guidet 4-timers 'rigtig' bjergvandring til tvillingetoppene Postalakirkja og Tindur nord for Vestmanna — med udsigt ned over Vestmanna-fugleklipperne og Nordatlanten fra oven. Umarkerede stier og ujævnt terræn, derfor med lokal guide.",
+    tips: "LIGE VED BASEN! Mødested: Magn-tanken i Vestmanna. 990 kr/voksen (børnekategori 2-13 år — spørg om børnepris), inkl. guide og kørsel i bil fra Vestmanna ind i fjeldene. Hele året, moderat sværhedsgrad. Gode støvler + vindjakke. Gratis afbestilling op til 48 t før. Book via guidetofaroeislands.fo.",
+    sources: ["guidetofaroeislands.fo"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "vestmanna-havnefiskeri",
+    name: "Fiskeri fra kajen i Vestmanna",
+    island: "Streymoy",
+    lat: 62.15450, lng: -7.15250,
+    category: "aktivitet",
+    description: "Havfiskeri fra kaj er FRIT på Færøerne — intet fiskekort kræves. Vestmanna havn er en oplagt eftermiddagsaktivitet med børn, og bådfisketure ('Fishing with Blastein' m.fl.) udgår også herfra.",
+    tips: "LIGE VED BASEN! Søfiskeri (fx ørred i Leynavatn, 12 min væk) kræver derimod fiskekort (veiðikort) — spørg i Vestmanna Tourist Centre. Medbragt grej skal være desinficeret ved indrejse.",
+    sources: ["visitfaroeislands.com", "guidetofaroeislands.fo", "visitvestmanna.com"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "saksun-vestmanna-hike",
+    name: "Vandretur Saksun–Vestmanna",
+    island: "Streymoy",
+    lat: 62.21000, lng: -7.16000, // ca. midt på ruten
+    category: "vandretur",
+    description: "Officiel vandrerute (8 km én vej, ca. 2t40, medium, top 460 m) fra Saksun over fjeldet og ned langs Fossá-elven til reservoirerne over Vestmanna — man vader over Fossá med udsigt til to vandkraftdæmninger og passerer det øvre reservoir Frammi á vatni.",
+    tips: "Officielt angivet som egnet til børn over 8 år. Overvejende jævn sti — kun opstigningen fra Saksunardalur (Oksagilsbrekka) er hård. Dele er dårligt markeret: tag GPX med og drop turen i tåge. Flodvadning kræver forældrevurdering. Logistik-idé uden bil i begge ender: gå 'baglæns' hjemmefra Vestmanna op forbi dæmningerne og vend på halvtid.",
+    sources: ["visitfaroeislands.com", "deep research 2026-07-15"],
+    mustSee: false, visited: false
+  },
+  {
     id: "faer-isles-distillery",
     name: "Faer Isles Distillery",
     island: "Streymoy",
@@ -208,7 +241,7 @@ window.FAROE_ATTRACTIONS = [
     lat: 62.28951, lng: -7.14917,
     category: "landsby",
     description: "En af de ældste bosættelser — sort sandstrand med udsigt til havstakkene Risin og Kellingin (Kæmpen og Kællingen). Populært surfspot.",
-    tips: "Smal vej dertil — kør forsigtigt. Stien til venstre for stranden giver det bedste udsigtspunkt. Surfing kun for erfarne (guidede ture findes).",
+    tips: "Smal vej dertil — kør forsigtigt. Stien til venstre for stranden giver det bedste udsigtspunkt. SURF: Faroe Islands Surf Guide (Surf Shack ved stranden) giver 2-3 timers lektioner for ALLE niveauer, board + hooded våddragt inkluderet — ved fladt hav byder de på SUP/snorkling/klippehop i stedet (4 t, ca. 200 EUR/person). Book på faroeislandssurfguide.com.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tjornuvik_from_Eidiskollur.jpg/960px-Tjornuvik_from_Eidiskollur.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ATjornuvik_from_Eidiskollur.jpg",
     sources: ["danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
@@ -298,8 +331,8 @@ window.FAROE_ATTRACTIONS = [
     island: "Streymoy",
     lat: 62.11700, lng: -7.04086, // bygden (OSM-verificeret 2026-07-13 — lå tidligere 1,3 km inde i landet)
     category: "aktivitet",
-    description: "Strandby på vestkysten, populær blandt lokale. Udgangspunkt for havkajakture gennem klippesøjler og huler.",
-    tips: "Kajakk Faroe Islands (guide Sigurd) — vejrafhængigt med alternative lokationer. Tæt på Vestmanna.",
+    description: "Strandby med Leynasandur — en af Færøernes få sandstrande: sort sand, lavvandet, og en å der løber gennem stranden ud i havet (perfekt til at hoppe på sten og bygge dæmninger). Også udgangspunkt for havkajakture gennem klippesøjler og huler.",
+    tips: "~12 min fra Vestmanna. Lokale bader om sommeren — ingen livredder. P-plads og lille offentligt toilet. Havkajak: Kajakk.fo's 'Cliffs and Caves'-tur (2-3 t, fra 1.400 kr inkl. tørdragt/hjelm/vest) launcher ofte herfra, vejrafhængigt — ring og bekræft om 8-årige må deltage.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Leynar%2C_Faroe_Islands.JPG/960px-Leynar%2C_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ALeynar%2C_Faroe_Islands.JPG",
     sources: ["danny-cph.com", "visitfaroeislands.com"],
@@ -526,9 +559,9 @@ window.FAROE_ATTRACTIONS = [
     island: "Streymoy",
     lat: 62.00780, lng: -6.77599,
     category: "aktivitet",
-    description: "Butik med færøsk design og outdoor-udstyr — færøsk uld fra Sirri, souvenirs og alt til vandreture, samlet ét sted.",
-    tips: "Skálatrøð 18, Tórshavn. Man kan også leje cykel her.",
-    sources: ["guidetofaroeislands.fo"],
+    description: "Butik med færøsk design og outdoor-udstyr — færøsk uld fra Sirri, souvenirs og outdoor-gear fra Sport 24 Outdoor, samlet under samme tag.",
+    tips: "Skálatrøð 18, Tórshavn. Cykeludlejning via Rent a Bike & Outdoor (rentabike.fo): MTB, e-bikes og gravel samt guidede offroad-ture året rundt — godt udgangspunkt inden øerne udforskes.",
+    sources: ["guidetofaroeislands.fo", "trykt turistbrochure 2026"],
     mustSee: false, visited: false
   },
 
@@ -553,10 +586,10 @@ window.FAROE_ATTRACTIONS = [
     lat: 62.31200, lng: -6.96500,
     category: "udsigt",
     description: "Ét af de bedste udsigtspunkter — panorama over Funningsfjørður og takkede tinder, med mallemukker i luften.",
-    tips: "10-20 min gang fra parkeringen ved Gjáarskarð-passet (mellem Funningur og Gjógv). Gratis. Mudret sti, stejle passager, lille P-plads — kom tidligt. Fortsæt til Gjógv bagefter.",
+    tips: "10-20 min gang fra parkeringen ved Gjáarskarð-passet (mellem Funningur og Gjógv) — følg de GRØNNE pæle fra passet. Gratis, kan gås hele året. Mudret sti, stejle passager, lille P-plads — kom tidligt. Fortsæt til Gjógv bagefter.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Faroe_Islands%2C_Eysturoy%2C_Funningsfj%C3%B8r%C3%B0ur_%28fjord%29.jpg/960px-Faroe_Islands%2C_Eysturoy%2C_Funningsfj%C3%B8r%C3%B0ur_%28fjord%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFaroe_Islands%2C_Eysturoy%2C_Funningsfj%C3%B8r%C3%B0ur_(fjord).jpg",
-    sources: ["guidetofaroeislands.fo", "danny-cph.com", "magnificentworld.com"],
+    sources: ["guidetofaroeislands.fo", "danny-cph.com", "magnificentworld.com", "trykt turistbrochure 2026"],
     mustSee: true, visited: false
   },
   {
@@ -578,11 +611,11 @@ window.FAROE_ATTRACTIONS = [
     island: "Eysturoy",
     lat: 62.28960, lng: -6.96700,
     category: "landsby",
-    description: "En af Færøernes ældste bygder — hvor den første bosætter ifølge traditionen gik i land. Charmerende kirke med græstørvstag ved foden af Slættaratindur.",
-    tips: "Udsigtspunktet lige uden for byen (gratis P, sjældent overrendt). Bjergvejen Funningur-Gjógv er spektakulær i sig selv.",
+    description: "En af Færøernes ældste bygder — hvor den første bosætter ifølge traditionen gik i land. Højst 60 huse i en fredfyldt dal ved foden af Slættaratindur, med bæk gennem bygden, græstørvskirke og ingen andre beboede steder i sigte.",
+    tips: "Udsigtspunktet lige uden for byen (gratis P, sjældent overrendt). Bjergvejen Funningur-Gjógv er spektakulær i sig selv — selve køreturen ned til bygden er en attraktion.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Funningur_village.jpg/960px-Funningur_village.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFunningur_village.jpg",
-    sources: ["danny-cph.com", "visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
+    sources: ["danny-cph.com", "visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08", "trykt turistbrochure 2026"],
     mustSee: false, visited: false
   },
   {
@@ -864,6 +897,52 @@ window.FAROE_ATTRACTIONS = [
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Hvannhagi_9.jpg/960px-Hvannhagi_9.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AHvannhagi_9.jpg",
     sources: ["visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
+    mustSee: false, visited: false
+  },
+
+  // ---------- TILFØJET 2026-07-15 (deep research: action/thrills) ----------
+  {
+    id: "rib62-klaemintsgjogv",
+    name: "RIB62 & Klæmintsgjógv (verdens største søhule)",
+    island: "Hestur",
+    lat: 61.95500, lng: -6.89500, // ca. — hulen på Hesturs vestkyst
+    category: "aktivitet",
+    description: "Højhastigheds-RIB-bådtur fra Gamlarætt til Hestur og ind i Klæmintsgjógv — med ~348.000 m³ kandidat til verdens største søhule. RIB62 sejler også Golden Hour Puffin Safari, Koltur-shuttle og ture til Stóra Dímun — og arrangerer KONCERTER inde i selve hulen.",
+    tips: "Afgang fra Gamlarætt færgehavn (ca. 40-45 min fra Vestmanna). Fra 700 kr/person; grottekoncert i hulen fra 1.095 kr. Book på rib62.com (ledige juli-afgange, også aften). VIGTIGT: ingen aldersgrænse offentliggjort — ring +298 566262 / info@rib62.com og bekræft at 8-årige må komme med. Vejrafhængigt.",
+    sources: ["rib62.com", "adventure.fo", "showcaves.com", "deep research 2026-07-15"],
+    mustSee: true, visited: false
+  },
+  {
+    id: "reika-rappelling",
+    name: "Rappelling ned ad havklipper (Reika Adventures)",
+    island: "Streymoy",
+    lat: 62.01100, lng: -6.77500, // base i Tórshavn — lokation vælges efter vejr/niveau
+    category: "aktivitet",
+    description: "Rappelling/abseiling ned ad lodrette havklipper med certificerede instruktører — begynderlokationer Tvillingsgjógv og Ravnagjógv (31-142 m nedfiring!). Der findes også en 1-times abseiling-tur på Kalsoy.",
+    tips: "Pris og minimumsalder oplyses kun ved kontakt: +298 267900 / reika@reika.fo (reika.fo). Min. 2 personer. Lokation varierer efter vejr — aftal mødested ved booking.",
+    sources: ["reika.fo", "visitfaroeislands.com", "guidetofaroeislands.fo", "deep research 2026-07-15"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "berg-hestar",
+    name: "Rideture med Berg Hestar",
+    island: "Streymoy",
+    lat: 62.01700, lng: -6.79500, // ca. — gården over Tórshavn ved Oyggjarvegur
+    category: "aktivitet",
+    description: "Rideture på islandske heste i fjeldene over Tórshavn — fra 1,5 time til heldagsture med panoramaudsigt over byen og Nólsoy.",
+    tips: "Minimumsalder 7 år — alle tre børn kan være med. Maks. 95 kg. Book på berghestar.fo. Alternativ operatør: Fjallaross på Streymoy.",
+    sources: ["berghestar.fo", "visitfaroeislands.com", "deep research 2026-07-15"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "north-atlantic-diving",
+    name: "Dykning & snorkling (North Atlantic Diving)",
+    island: "Streymoy",
+    lat: 62.01000, lng: -6.76900, // Tórshavn havn
+    category: "aktivitet",
+    description: "PADI-dykkercenter i Tórshavn med heldagsture (8,5 t) i det klare, kolde Nordatlanten — mest for de store/far. Faroe Dive i Klaksvík er alternativet mod nord; snorkling for hele familien fås også hos surf-guiden i Tjørnuvík.",
+    tips: "Fra 5.980 kr/person for heldagstur — spørg om alderskrav og snorkel-alternativer for børnene.",
+    sources: ["guidetofaroeislands.fo", "faroedive.com", "deep research 2026-07-15"],
     mustSee: false, visited: false
   },
 
