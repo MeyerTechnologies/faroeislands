@@ -13,6 +13,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "20 min fra lufthavnen via ensporet tunnel fra Bøur. I højsæson: parkér i byen og gå 5 min. Ved kraftig vind blæser vandet dramatisk opad. Tag den cirkulære rute rundt om landsbyen.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/M%C3%BAlafossur2.jpg/960px-M%C3%BAlafossur2.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AM%C3%BAlafossur2.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/mulafossur-the-waterfall-in-gasadalur", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/mulafossur", "https://visitvagar.fo/en/see-do0/culture-attractions/viewpoints/mulafossur"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com"],
     mustSee: true, visited: false
   },
@@ -26,6 +27,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Kombinér med Múlafossur og kystvandringen til Skarðsáfossur.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/G%C3%A1sadalur_%2851256491640%29.jpg/960px-G%C3%A1sadalur_%2851256491640%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AG%C3%A1sadalur_(51256491640).jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/gasadalur/", "https://visitvagar.fo/en/about5/about-vagar-and-mykines/the-villages/gasadalur", "https://en.wikipedia.org/wiki/G%C3%A1sadalur"],
     sources: ["danny-cph.com", "guidetofaroeislands.fo", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -37,6 +39,7 @@ window.FAROE_ATTRACTIONS = [
     category: "vandretur",
     description: "Smukt og overset vandfald nær Gásadalur, nås via en 3 km kystvandresti.",
     tips: "2-3 timer tur/retur fra Gásadalur, eller kør til grusvejs-trailhead. Stien er let at overse.",
+    links: ["https://northtrotter.com/2022/10/19/secrets-of-vagar-finding-the-skardsafossur-waterfall-near-bour/", "https://www.komoot.com/highlight/4647309"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -50,6 +53,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Ca. 7 km retur, 2,5-3 timer, let terræn. Entré 200 DKK/person (fra 16 år), betales ved Miðvágur. Meget vejrafhængig — god sigt er afgørende. Pas på kanterne i tåge. Kajakudlejning på søen.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tr%C3%A6lan%C3%ADpan_-_Faroe_Islands_-_The_Sea_above_the_Sea_%2850382487848%29.jpg/960px-Tr%C3%A6lan%C3%ADpan_-_Faroe_Islands_-_The_Sea_above_the_Sea_%2850382487848%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ATr%C3%A6lan%C3%ADpan_-_Faroe_Islands_-_The_Sea_above_the_Sea_(50382487848).jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/lake-sorvagsvatn-leitisvatn", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/traelanipa/", "https://en.wikipedia.org/wiki/S%C3%B8rv%C3%A1gsvatn"],
     sources: ["guidetofaroeislands.fo", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: true, visited: false
   },
@@ -61,6 +65,9 @@ window.FAROE_ATTRACTIONS = [
     category: "natur",
     description: "116 meter høj klippesøjle i havet — kun 5 minutters gang fra Trælanípa.",
     tips: "Tag den med som afstikker på Trælanípa-turen.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Geituskorardrangur.jpg/960px-Geituskorardrangur.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Geituskorardrangur.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/geituskorardrangur/", "https://visitvagar.fo/en/see-do0/culture-attractions/viewpoints0/bosdalafossur-geituskoradrangur0"],
     sources: ["guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -74,6 +81,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Opleves bedst fra båd (RIB-tur) fra Sørvágur — i godt vejr sejler båden gennem hullet. 1-2 timers ture, book online. Vandreturen kræver lokal guide (privat jord, ~550 DKK/person, min. 6 km hver vej) — book på forhånd; ideelt solnedgangsspot.",
     image: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Drangarnir_and_Tindholmur%2C_Faroe_Islands.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ADrangarnir_and_Tindholmur%2C_Faroe_Islands.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/drangarnir-the-sea-stacks", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/drangarnir/", "https://visitvagar.fo/en/see-do0/activities/hiking-in-our-area/drangarnir-the-sea-stacks"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "magnificentworld.com"],
     mustSee: true, visited: false
   },
@@ -87,6 +95,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "20 min gåtur fra parkeringen i Sandavágur. Kør IKKE helt ud til udsigtspunktet (forbudt + blokerer vendested). Glatte partier; krydser privat jord.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Is03126-Palec_wied%C5%BAmy.jpg/960px-Is03126-Palec_wied%C5%BAmy.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AIs03126-Palec_wied%C5%BAmy.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/trollkonufingur", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/troellkonufingur/", "https://visitvagar.fo/en/see-do0/culture-attractions/viewpoints/trollkonufingur1"],
     sources: ["danny-cph.com", "heritagewanderlust.com"],
     mustSee: false, visited: false
   },
@@ -100,6 +109,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Perfekt til solnedgangsfoto. Ligger på vejen til Gásadalur-tunnelen.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/B%C3%B8ur.V%C3%A1gar.2.jpg/960px-B%C3%B8ur.V%C3%A1gar.2.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AB%C3%B8ur.V%C3%A1gar.2.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/bour0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/boeur", "https://visitvagar.fo/en/about5/about-vagar-and-mykines/the-villages/bour"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -111,7 +121,75 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Hyggeligt spisested i Sandavágur med fremragende kanelsnegle og fiskesuppe.",
     tips: "Úti á Bakka 12, Sandavágur. Book i god tid via hjemmesiden — fyldt i højtider.",
+    links: ["https://fiskastykkid.fo/", "https://www.facebook.com/fiskastykkid/"],
     sources: ["danny-cph.com"],
+    mustSee: false, visited: false
+  },
+
+  {
+    id: "fjallavatn",
+    name: "Fjallavatn",
+    island: "Vágar",
+    lat: 62.12250, lng: -7.29920,
+    category: "vandretur",
+    description: "Færøernes næststørste sø, gemt i det vejløse, vilde Nordvágar — fredet siden 1983, med ørred i vandet og Norð á Munna-udsigten ved nordenden, hvor søen næsten møder havet.",
+    tips: "Start for enden af vejen i Vatnsoyrar: næsten helt flad sti, ca. 5,5 km hver vej (4-5 t retur) med én vadning over en å — medbring skiftesokker/vandresandaler. Gratis. Drop forlængelsen til Gásadalur (hård). Giver 'vildmarks-nord'-følelsen uden de forladte bygders 18 km.",
+    links: ["https://visitvagar.fo/en/see-do0/culture-attractions/viewpoints/the-lakes/fjallavatn", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/fjallavatn/", "https://en.wikipedia.org/wiki/Fjallavatn"],
+    sources: ["visitvagar.fo", "alltrails.com", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "krigssavnid",
+    name: "Krígssavnið (2. verdenskrigs-museet)",
+    island: "Vágar",
+    lat: 62.07400, lng: -7.30400, // ca. — Varðagøta 61, Sørvágur
+    category: "kultur",
+    description: "Krigsmuseum i en autentisk britisk kommandobunker (Sector Operations Room, 1942-43) i Sørvágur — om de 8.000 britiske soldater, flyvebådene på Sørvágsvatn og bygningen af lufthavnen.",
+    tips: "Maj-sep: lør-søn 14-17 — eller ring +298 221940 og aftal tid (anbefales). Ca. 50 kr/voksen, gratis under 14. OBS: museet er flyttet fra Miðvágur til bunkeren i Sørvágur.",
+    links: ["https://ww2.fo/"],
+    sources: ["ww2.fo", "visitfaroeislands.com", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "vatnsoyrar",
+    name: "Vatnsoyrar: nykur-statuen & bilmuseet",
+    island: "Vágar",
+    lat: 62.07000, lng: -7.25200, // bygden ved søens nordende
+    category: "kultur",
+    description: "Færøernes yngste bygd (1921) og den eneste uden havudsigt — med veteranbilmuseum (bl.a. 1915 Ford T, Færøernes første biler) og den sølvskinnende nykur-statue, der rejser sig af Sørvágsvatn: sagnets vandhest, som lokker folk op på ryggen og trækker dem i søen. Under krigen beslaglagde briterne hele bygden som flyvebåds-base.",
+    tips: "Nykur-statuen ses fra hovedvejen — kort afstikker ned til søbredden, gratis gys-historie på 5 min. Bilmuseets åbningstider er UVERIFICEREDE (formentlig efter aftale — spørg Visit Vágar). Startpunkt for Fjallavatn-turen.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Faroe_Islands%2C_V%C3%A1gar%2C_Vatnsoyrar_%281%29.jpg/960px-Faroe_Islands%2C_V%C3%A1gar%2C_Vatnsoyrar_%281%29.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Faroe_Islands%2C_V%C3%A1gar%2C_Vatnsoyrar_%281%29.jpg",
+    links: ["https://visitvagar.fo/en/about5/about-vagar-and-mykines/the-villages/vatnsoyrar", "https://en.wikipedia.org/wiki/Vatnsoyrar", "https://trap.fo/en/the-islands-towns-and-settlements/vagar/vatnsoyrar/"],
+    sources: ["atlasobscura.com", "en.wikipedia.org", "trap.fo", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "bosdalafossur",
+    name: "Bøsdalafossur",
+    island: "Vágar",
+    lat: 62.03400, lng: -7.24700, // ca. — sydvestenden af Sørvágsvatn
+    category: "natur",
+    description: "Vandfaldet hvor Sørvágsvatn styrter 30 m direkte i Atlanterhavet — 'søen der falder i havet'. Samme sti som Trælanípa: ved stiskillet efter ca. 2,7 km går højre gren herned.",
+    tips: "+30-45 min oveni Trælanípa-turen — tag begge grene. Ingen hegn: hold børnene fra kanten. Afgift betales ved P-pladsen i Miðvágur (samme billet som Trælanípa).",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/B%C3%B8sdalafossur_Wasserfall_auf_V%C3%A1gar.jpg/960px-B%C3%B8sdalafossur_Wasserfall_auf_V%C3%A1gar.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:B%C3%B8sdalafossur_Wasserfall_auf_V%C3%A1gar.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/boesdalafossur-waterfall/", "https://visitvagar.fo/en/see-do0/culture-attractions/viewpoints0/bosdalafossur-geituskoradrangur0", "https://en.wikipedia.org/wiki/B%C3%B8sdalafossur"],
+    sources: ["visitfaroeislands.com", "northtrotter.com", "alltrails.com", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "sandavagur-kirke",
+    name: "Sandavágur kirke & runestenen",
+    island: "Vágar",
+    lat: 62.05300, lng: -7.15500, // ca. — den rødtagede kirke
+    category: "kultur",
+    description: "Den rødtagede kirke (1917) rummer en runesten fra 1200-tallet: vikingen Torkil Onundarson fra Rogaland var egnens første bosætter — børnene kan selv prøve at tyde runerne.",
+    tips: "Gratis 5-10 min stop, tæt på Trøllkonufingur. I nabobyen Miðvágur ligger Kálvalíð — muligvis Færøernes ældste hus ('hobbit-huset', forlæg for romanen Barbara), åbnes på forespørgsel ons/tor/lør 14-16, tlf. +298 794470.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Sandav%C3%A1gur_Kirche_Seite.jpg/960px-Sandav%C3%A1gur_Kirche_Seite.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Sandav%C3%A1gur_Kirche_Seite.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/sandavagur/", "https://visitvagar.fo/en/about5/about-vagar-and-mykines/the-villages/sandavagur", "https://en.wikipedia.org/wiki/Sandav%C3%A1gur_stone"],
+    sources: ["visitfaroeislands.com", "en.wikipedia.org", "whichmuseum.com", "deep research 2026-07-16"],
     mustSee: false, visited: false
   },
 
@@ -126,6 +204,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Færgen Jósup fra Sørvágur (45 min, dagligt maj-aug): 600 kr/voksen (16+), 300 kr/barn 0-15 — inkl. sightseeing forbi Múlafossur/Drangarnir/Tindhólmur på hjemturen. Book på mykines.fo i MEGET god tid (udsolgt uger frem i juli). Vandregebyr 400 kr/person forudbetalt på hiking.fo (500 kr på øen) hvis man går ud mod fyret. OBS: risiko for aflyste afgange i dårligt vejr — man kan strande på øen. Alternativ: Puffin.fo sejler Mykines-ture direkte fra Vestmanna. Lunde-alternativer: Eiði-området eller Skúvoy.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Mykinesh%C3%B3lmur_1.jpg/960px-Mykinesh%C3%B3lmur_1.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AMykinesh%C3%B3lmur_1.jpg",
+    links: ["https://mykines.fo/", "https://guidetofaroeislands.fo/nature-in-faroe-islands/mykines/", "https://visitvagar.fo/en/visit-mykines/see-do8/puffins-and-birdwatching"],
     sources: ["visitfaroeislands.com", "heritagewanderlust.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: true, visited: false
   },
@@ -141,6 +220,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "LIGE VED BASEN! Afgang fra Vestmanna havn (Puffin.fo, ca. 90 min): 225 kr/voksen, 125 kr/barn 6-13 år, ingen minimumsalder. Fire daglige afgange kl. 9.40, 14.00, 17.00 og 20.00 — de to sene kan nås EFTER kl. 16. Book på forhånd men vurdér vejret — tåge ødelægger sigtbarheden. Varmt tøj på vandet. Kombirabat med SagaMuseum.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Vestmannabj%C3%B8rgini%2C_Faroe_Islands_%287%29.JPG/960px-Vestmannabj%C3%B8rgini%2C_Faroe_Islands_%287%29.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AVestmannabj%C3%B8rgini%2C_Faroe_Islands_(7).JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/vestmanna-bird-cliffs", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/vestmanna-bird-cliffs", "https://visitvestmanna.com/en/see-do0/activities/boat-tours"],
     sources: ["guidetofaroeislands.fo", "visitfaroeislands.com", "heritagewanderlust.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: true, visited: false
   },
@@ -152,6 +232,9 @@ window.FAROE_ATTRACTIONS = [
     category: "kultur",
     description: "Færøernes eneste voksmuseum, i Vestmanna Tourist Centre. 17 livagtige figurer fører dig gennem øernes historie fra de første irske munke til 1700-tallet — flere scener er ret grafiske (henrettelser, tortur, skrig).",
     tips: "LIGE VED BASEN! Åbent alle dage om sommeren kl. 9-17. Lydguide inkluderet (også på dansk). Rabat hvis man køber billet sammen med fugleklippe-bådturen (samme sted). Restaurant og gavebutik i centret.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Wiking.voxmuseum.1.jpg/960px-Wiking.voxmuseum.1.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Wiking.voxmuseum.1.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/saga-museum", "https://visitvestmanna.com/en/whatson/places/place/saga-museum"],
     sources: ["visitfaroeislands.com", "visit-vestmanna.com", "tripadvisor.com"],
     mustSee: false, visited: false
   },
@@ -163,6 +246,9 @@ window.FAROE_ATTRACTIONS = [
     category: "vandretur",
     description: "Kort gåtur op til den nærmeste af SEV's fire dæmninger/reservoirer i bjergene over Vestmanna — regnvand fra højlandet ledes herfra ned gennem rør til byens tre vandkraftværker. Flot udsigt over fjorden og bygden fra dæmningskronen.",
     tips: "LIGE VED BASEN! Kør op ad vejen Á Fjørð (almindelig bil kan køre helt derop) eller gå. Kan forlænges til en rigtig vandretur: dæmningen er første etape på den klassiske rute Hvalvík–Vestmanna (følg vardestien videre til Gjógvará og ned ad Miðalsbrekka, ca. 3-4 t i alt — kræver planlagt afhentning/bil i Hvalvík).",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Vestmanna_1950s_constructions.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Vestmanna_1950s_constructions.jpg",
+    links: ["https://visitvestmanna.com/en/see-do0/activities/hiking-in-our-area", "https://trap.fo/en/society-and-business/energiforsyning-pa-faeroerne/"],
     sources: ["visitfaroeislands.com", "sev.fo", "bruger-tip 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -174,6 +260,7 @@ window.FAROE_ATTRACTIONS = [
     category: "vandretur",
     description: "Kort bjergvandring op gennem kløften Skavagil til passet mellem de to toppe Melin (293 m) og Hægstafjall (296 m) vest for Vestmanna — udsigt ned over sundet/bugten som skærer ind til byen.",
     tips: "LIGE VED BASEN! Start fra Vestmanna (fx den øverste vej i byen) og følg kløften op mellem de to fjelde. Ingen officielt afmærket sti — tjek retning/vejr før du går, og hav godt fodtøj på grund af løs sten og fugtige partier.",
+    links: ["https://hikewithpol.fo/item/1245?_l=en", "https://visitvestmanna.com/en/see-do0/activities/hiking-in-our-area"],
     sources: ["OpenStreetMap", "bruger-tip 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -185,6 +272,7 @@ window.FAROE_ATTRACTIONS = [
     category: "vandretur",
     description: "Guidet 4-timers 'rigtig' bjergvandring til tvillingetoppene Postalakirkja og Tindur nord for Vestmanna — med udsigt ned over Vestmanna-fugleklipperne og Nordatlanten fra oven. Umarkerede stier og ujævnt terræn, derfor med lokal guide.",
     tips: "LIGE VED BASEN! Mødested: Magn-tanken i Vestmanna. 990 kr/voksen (børnekategori 2-13 år — spørg om børnepris), inkl. guide og kørsel i bil fra Vestmanna ind i fjeldene. Hele året, moderat sværhedsgrad. Gode støvler + vindjakke. Gratis afbestilling op til 48 t før. Book via guidetofaroeislands.fo.",
+    links: ["https://guidetofaroeislands.fo/book-holiday-trips/vestmanna-mountain-hike/", "https://visitvestmanna.com/en/see-do0/activities/hiking-in-our-area"],
     sources: ["guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -196,6 +284,9 @@ window.FAROE_ATTRACTIONS = [
     category: "aktivitet",
     description: "Havfiskeri fra kaj er FRIT på Færøerne — intet fiskekort kræves. Vestmanna havn er en oplagt eftermiddagsaktivitet med børn, og bådfisketure ('Fishing with Blastein' m.fl.) udgår også herfra.",
     tips: "LIGE VED BASEN! Søfiskeri (fx ørred i Leynavatn, 12 min væk) kræver derimod fiskekort (veiðikort) — spørg i Vestmanna Tourist Centre. Medbragt grej skal være desinficeret ved indrejse.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vestmanna%2C_Faroe_Islands_%287%29.JPG/960px-Vestmanna%2C_Faroe_Islands_%287%29.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Vestmanna%2C_Faroe_Islands_%287%29.JPG",
+    links: ["https://visitfaroeislands.com/en/see-do/activities/at-sea/saltwater-fishing", "https://guidetofaroeislands.fo/nature-in-faroe-islands/sports-fishing-in-the-faroe-islands/"],
     sources: ["visitfaroeislands.com", "guidetofaroeislands.fo", "visitvestmanna.com"],
     mustSee: false, visited: false
   },
@@ -207,6 +298,9 @@ window.FAROE_ATTRACTIONS = [
     category: "vandretur",
     description: "Officiel vandrerute (8 km én vej, ca. 2t40, medium, top 460 m) fra Saksun over fjeldet og ned langs Fossá-elven til reservoirerne over Vestmanna — man vader over Fossá med udsigt til to vandkraftdæmninger og passerer det øvre reservoir Frammi á vatni.",
     tips: "Officielt angivet som egnet til børn over 8 år. Overvejende jævn sti — kun opstigningen fra Saksunardalur (Oksagilsbrekka) er hård. Dele er dårligt markeret: tag GPX med og drop turen i tåge. Flodvadning kræver forældrevurdering. Logistik-idé uden bil i begge ender: gå 'baglæns' hjemmefra Vestmanna op forbi dæmningerne og vend på halvtid.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/St%C3%B3r%C3%A1_river_Streymoy.jpg/960px-St%C3%B3r%C3%A1_river_Streymoy.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:St%C3%B3r%C3%A1_river_Streymoy.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/hiking/hike/saksun-vestmanna", "https://visitvestmanna.com/en/whatson/hiking/hike/saksun-vestmanna"],
     sources: ["visitfaroeislands.com", "deep research 2026-07-15"],
     mustSee: false, visited: false
   },
@@ -218,6 +312,7 @@ window.FAROE_ATTRACTIONS = [
     category: "aktivitet",
     description: "Destilleri i Vestmanna der laver whisky og gin med lokale råvarer (bl.a. tang) og vindkraft.",
     tips: "LIGE VED BASEN. Guidede rundvisninger med smagning — book på forhånd via hjemmesiden.",
+    links: ["https://faer.fo/visitor-centre/", "https://visitfaroeislands.com/en/whatson/places/place/faer-isles-distillery0", "https://guidetofaroeislands.fo/history-culture/faer-isles-distillery-whisky/"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com"],
     mustSee: false, visited: false
   },
@@ -231,6 +326,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Ca. 45 min fra Vestmanna. Lagunen kan udforskes ved lavvande. Respektér privat ejendom — bliv på stierne. Museets åbningstider varierer.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Saksun%2C_Faroe_Islands_%282%29.JPG/960px-Saksun%2C_Faroe_Islands_%282%29.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ASaksun%2C_Faroe_Islands_(2).JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/saksun", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/saksun/", "https://en.wikipedia.org/wiki/Saksun"],
     sources: ["guidetofaroeislands.fo", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: true, visited: false
   },
@@ -244,6 +340,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Smal vej dertil — kør forsigtigt. Stien til venstre for stranden giver det bedste udsigtspunkt. SURF: Faroe Islands Surf Guide (Surf Shack ved stranden) giver 2-3 timers lektioner for ALLE niveauer, board + hooded våddragt inkluderet — ved fladt hav byder de på SUP/snorkling/klippehop i stedet (4 t, ca. 200 EUR/person). Book på faroeislandssurfguide.com.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tjornuvik_from_Eidiskollur.jpg/960px-Tjornuvik_from_Eidiskollur.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ATjornuvik_from_Eidiskollur.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/tjornuvik0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/tjoernuvik", "https://en.wikipedia.org/wiki/Tj%C3%B8rnuv%C3%ADk"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: true, visited: false
   },
@@ -257,6 +354,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "6,5 km hver vej, ca. 500 m stigning. Går over privat landbrugsjord — vis hensyn. Flot udsigt over Tjørnuvík fra stiens start. Vennens dom: 'lidt længere tur, men virkelig flot'.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tjornuvik_from_Eidiskollur.jpg/960px-Tjornuvik_from_Eidiskollur.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ATjornuvik_from_Eidiskollur.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/hiking/hike/saksun-tjornuvik", "https://guidetofaroeislands.fo/book-holiday-trips/hiking-from-saksun-to-tjoernuvik-2/"],
     sources: ["visitfaroeislands.com", "danny-cph.com", "heritagewanderlust.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -270,6 +368,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Synligt fra vejen — nemt fotostop med parkering ved foden. Mest imponerende i/efter regnvejr og kraftig blæst (vandet blæses op i luften). Man kan gå op langs vandfaldet. Pas på glatte sten. LOKAL DAGSTUR: Fossá → Haldórsvík (ottekantet kirke) → Tjørnuvík → Eiði/Eiðiskollur → Funningur → Gjógv.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Streymoy_Fossa_von_Eysturoy_2.JPG/960px-Streymoy_Fossa_von_Eysturoy_2.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AStreymoy_Fossa_von_Eysturoy_2.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/fossa-waterfall", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/fossa-waterfall", "https://en.wikipedia.org/wiki/Foss%C3%A1"],
     sources: ["visitfaroeislands.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -283,6 +382,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Nem stop-på-vejen-attraktion med parkering.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Faroe_Islands%2C_Streymoy%2C_Kaldbaksbotnur.jpg/960px-Faroe_Islands%2C_Streymoy%2C_Kaldbaksbotnur.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFaroe_Islands%2C_Streymoy%2C_Kaldbaksbotnur.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/tyggjara-waterfall/"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -296,6 +396,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "LOKALT TIP: Kør op en aften med godt aftenlys. Tag den gamle bjergvej Oyggjarvegin (Tórshavn-Kollafjørður) og drej op ad den lille asfalterede sidevej mod radarstationen — smal og stejl med hårnålesving. Parkeringsplads oppe til højre lige inden toppen. Vanvittig udsigt: i klart vejr ses mindst 7 øer, og på tågede sommeraftener står man OVER skyerne. Kun i klart vejr — ellers ser man ingenting. Vennens dom: 'mega flot, men lidt besværlig køretur' — kør op ved solnedgang.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Mountain_Sornfelli.1.JPG/960px-Mountain_Sornfelli.1.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AMountain_Sornfelli.1.JPG",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/sornfelli/", "https://adventure.fo/tour/visiting-the-old-military-base/", "https://en.wikipedia.org/wiki/Sornfelli"],
     sources: ["visitfaroeislands.com", "guidetofaroeislands.fo", "lokalt tip (færøsk ven) 2026-07-07"],
     mustSee: true, visited: false
   },
@@ -309,6 +410,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Selve udgravningen (skálin) ligger tæt på kysten og kan ses gratis. De udgravede genstande (redskaber, legetøj, vægtlodder) findes på Tjóðsavnið (Historisk Museum) i Tórshavn. Kombinér med Kvívík-udsigtspunktet lige udenfor byen.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Kv%C3%ADv%C3%ADk_Faroe_Islands_the_river_and_the_village.JPG/960px-Kv%C3%ADv%C3%ADk_Faroe_Islands_the_river_and_the_village.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AKv%C3%ADv%C3%ADk_Faroe_Islands_the_river_and_the_village.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/viking-excavations-in-kvivik", "https://en.wikipedia.org/wiki/Kv%C3%ADv%C3%ADk", "https://trap.fo/en/the-islands-towns-and-settlements/streymoy/kvivik-and-kvivikar-municipality/"],
     sources: ["visitfaroeislands.com", "trap.fo", "en.wikipedia.org"],
     mustSee: false, visited: false
   },
@@ -322,6 +424,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Parkeringsplads og picnicbænke. På vejen mellem Vestmanna og Tórshavn.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Is03145-Kvivik.jpg/960px-Is03145-Kvivik.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AIs03145-Kvivik.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/kvivik/", "https://visitfaroeislands.com/en/whatson/places/place/viking-excavations-in-kvivik"],
     sources: ["danny-cph.com"],
     mustSee: false, visited: false
   },
@@ -335,6 +438,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "~12 min fra Vestmanna. Lokale bader om sommeren — ingen livredder. P-plads og lille offentligt toilet. Havkajak: Kajakk.fo's 'Cliffs and Caves'-tur (2-3 t, fra 1.400 kr inkl. tørdragt/hjelm/vest) launcher ofte herfra, vejrafhængigt — ring og bekræft om 8-årige må deltage.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Leynar%2C_Faroe_Islands.JPG/960px-Leynar%2C_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ALeynar%2C_Faroe_Islands.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/leynasandur00", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/leynar/", "https://en.wikipedia.org/wiki/Leynar"],
     sources: ["danny-cph.com", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -354,6 +458,7 @@ window.FAROE_ATTRACTIONS = [
       { kind: "note", at: [62.1173,-7.0400], text: "Parkér langs rute 11 i Leynar", color: "#1a1d24", anchor: [-18, 12] },
       { kind: "note", at: [62.1235,-7.0305], text: "Flad tur langs Dalá, t/r ~40 min", color: "#2563eb", anchor: [-10, 6] }
     ],
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/lake-leynavatn/", "https://en.wikipedia.org/wiki/Lake_Leynar"],
     sources: ["guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -367,6 +472,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "~12-15 min fra Vestmanna langs kysten. Udgangspunkt for den klassiske vandretur til Vestmanna over fjeldet (3-4 t, kræver planlagt afhentning/bil i den anden ende — se punktet 'Dæmningerne ved Vestmanna'). Vilde laks og ørred i åen.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Church_of_Hvalv%C3%ADk%2C_Faroe_Islands.JPG/960px-Church_of_Hvalv%C3%ADk%2C_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AChurch_of_Hvalv%C3%ADk%2C_Faroe_Islands.JPG",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/hvalvik/", "https://en.wikipedia.org/wiki/Hvalv%C3%ADk"],
     sources: ["en.wikipedia.org", "guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -377,9 +483,10 @@ window.FAROE_ATTRACTIONS = [
     lat: 62.11739, lng: -6.90242,
     category: "landsby",
     description: "Fiskeriby på vejen mellem Vestmanna og Tórshavn. Den sorte trækirke fra 1837 er helt upyntet indvendig på nær et par blå streger på prædikestolen — og et lille skib hængt op til minde om en 25-årig der druknede ud for Island.",
-    tips: "~20 min fra Vestmanna, på hovedvejen mod Tórshavn. Marsvin (bottlenose-hvaler) ses ind imellem i fjorden, især i september. Supermarked og café i byen — fint stop undervejs.",
+    tips: "~20 min fra Vestmanna, på hovedvejen mod Tórshavn. Marsvin (bottlenose-hvaler) ses ind imellem i fjorden, især i september. Supermarked og café i byen — fint stop undervejs. I Skælingur (for enden af bygdestien) står den historiske stenbuebro over Breiðá, kendt fra et færøsk frimærke.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Church_of_Kollafj%C3%B8r%C3%B0ur%2C_Faroe_Islands.JPG/960px-Church_of_Kollafj%C3%B8r%C3%B0ur%2C_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AChurch_of_Kollafj%C3%B8r%C3%B0ur%2C_Faroe_Islands.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/church-in-kollafjordur0", "https://en.wikipedia.org/wiki/Kollafj%C3%B8r%C3%B0ur"],
     sources: ["en.wikipedia.org", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -393,6 +500,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Udforsk til fods. Restauranter åbner typisk først 17.30-18. Bedste udsigt ved Kongaminnið. Gratis bybusser. Strik hos Guðrun & Guðrun. Med små børn: legepladsen Grasagarður (Tróndargøta) midt i byen. Svømmehal ved dårligt vejr. Shopping i SMS-centret.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Is03002-Torshavn.jpg/960px-Is03002-Torshavn.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AIs03002-Torshavn.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/tinganes", "https://visitfaroeislands.com/en/whatson/places/place/old-town-in-torshavn-a-reyni", "https://guidetofaroeislands.fo/travel-information/the-ultimate-guide-to-torshavn/"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: true, visited: false
   },
@@ -406,6 +514,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Åbent dagligt maj-oktober. Godt regnvejrs-kort.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Listasavn_F%C3%B8roya.jpg/960px-Listasavn_F%C3%B8roya.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AListasavn_F%C3%B8roya.jpg",
+    links: ["https://art.fo/?_l=en", "https://visitfaroeislands.com/en/whatson/places/place/listasavn-foroya0", "https://en.wikipedia.org/wiki/Listasavn_F%C3%B8roya"],
     sources: ["danny-cph.com"],
     mustSee: false, visited: false
   },
@@ -419,6 +528,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "15 km fra Tórshavn. Kan kombineres med vandreturen over fjeldet fra Tórshavn eller naturskøn (e-)cykelrute via Velbastaður.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Faroe_Islands%2C_Streymoy%2C_Kirkjub%C3%B8ur_%281%29.jpg/960px-Faroe_Islands%2C_Streymoy%2C_Kirkjub%C3%B8ur_%281%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFaroe_Islands%2C_Streymoy%2C_Kirkjub%C3%B8ur_(1).jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/kirkjubour0", "https://visitfaroeislands.com/en/whatson/places/place/st-magnus-cathedral", "https://en.wikipedia.org/wiki/Kirkjub%C3%B8ur"],
     sources: ["visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: true, visited: false
   },
@@ -432,6 +542,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Ved Hotel Hafnia på Strandstræti. Book online. Rimelig søndagsfrokost med lammesteg.",
     image: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Hotel_Hafnia%2C_T%C3%B3rshavn_2008_%28cropped%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AHotel_Hafnia%2C_T%C3%B3rshavn_2008_(cropped).jpg",
+    links: ["https://en.katrina.fo/", "https://visitfaroeislands.com/en/whatson/places/place/katrina-christiansen0"],
     sources: ["danny-cph.com", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -443,6 +554,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Ramen-restaurant i Tórshavn — 'noget af den bedste ramen vi nogensinde har fået' til rimelige priser.",
     tips: "Kun walk-in, ingen reservation. Gyoza og veganske retter på menuen.",
+    links: ["https://suppugardurin.fo/en/", "https://visitfaroeislands.com/en/whatson/places/place/suppugardurin0"],
     sources: ["danny-cph.com"],
     mustSee: false, visited: false
   },
@@ -456,6 +568,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Reservation nødvendig. Kun middag onsdag-lørdag.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Tinganes_57.jpg/960px-Tinganes_57.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ATinganes_57.jpg",
+    links: ["https://barbara.fo/barbara/", "https://visitfaroeislands.com/en/whatson/places/place/barbara-fish-house0"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -469,6 +582,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Reservation påkrævet. Kun middag tirsdag-søndag.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/%C3%81arstova%2C_T%C3%B3rshavn_Altstadt_04.jpg/960px-%C3%81arstova%2C_T%C3%B3rshavn_Altstadt_04.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3A%C3%81arstova%2C_T%C3%B3rshavn_Altstadt_04.jpg",
+    links: ["https://aarstova.fo/aarstova/", "https://visitfaroeislands.com/en/whatson/places/place/aarstova0"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -482,6 +596,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Reservation nødvendig. Eksklusiv — den store madoplevelse.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Tinganes_57.jpg/960px-Tinganes_57.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ATinganes_57.jpg",
+    links: ["https://www.roks.fo/en/roks", "https://visitfaroeislands.com/en/whatson/places/place/roks0", "https://guide.michelin.com/us/en/faroe-islands/torshavn/restaurant/roks"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -493,6 +608,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Færøernes eneste sushirestaurant — japansk teknik møder frisk færøsk fisk.",
     tips: "Walk-ins velkomne, åben frokost + middag alle dage.",
+    links: ["https://www.etika.fo/", "https://visitfaroeislands.com/en/whatson/places/place/etika00"],
     sources: ["visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -506,6 +622,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Walk-ins muligt, men langsom betjening i travle perioder.",
     image: "https://upload.wikimedia.org/wikipedia/commons/1/14/Eystarav%C3%A1g%2C_Torshavn%2C_faroe_islands%2C_feb_2005.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AEystarav%C3%A1g%2C_Torshavn%2C_faroe_islands%2C_feb_2005.jpg",
+    links: ["https://tarv.fo/en/", "https://visitfaroeislands.com/en/whatson/places/place/the-tarv"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -517,6 +634,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Budgetvenlig café i hjertet af Tórshavn — kendt for bagels og burgere.",
     tips: "Godt valg til et billigt måltid.",
+    links: ["https://en.kaspar.fo/", "https://visitfaroeislands.com/en/whatson/places/place/kafe-kaspar0", "https://www.visittorshavn.fo/place/kafe-kaspar0/"],
     sources: ["visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -528,6 +646,9 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Hyggelig café i centrale Tórshavn til kaffe og bagværk.",
     tips: "Åben til kl. 23 — godt sene-aften-stop.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/T%C3%B3rshavn%2C_Vagli%C3%B0_2026_05.jpg/960px-T%C3%B3rshavn%2C_Vagli%C3%B0_2026_05.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:T%C3%B3rshavn,_Vagli%C3%B0_2026_05.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/paname-cafe0", "https://www.visittorshavn.fo/place/paname-cafe0/"],
     sources: ["danny-cph.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -539,6 +660,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Bryghus, taprum, koncertsted og food hall samlet ét sted — Færøernes ølscene i hjertet af Tórshavn.",
     tips: "Falkavegur 4, ca. 20 min gang fra centrum. Køb dåser med hjem fra shoppen (man-tors 11.30-17.30, fre 10-19, lør 10-16). Taprum/food hall: ons-tors 11.30-22, fre-lør 11.30-24, søn 14-20 (køkken til kl. 20).",
+    links: ["https://www.oy.fo/en/oy", "https://visitfaroeislands.com/en/whatson/places/place/oy-brewery0", "https://www.visittorshavn.fo/place/oy-brewery0/"],
     sources: ["oy.fo", "guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -550,6 +672,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Kaffebrænderi og café i hjertet af Tórshavn, kendt for kvalitet og bæredygtighed — bønner brygget lokalt.",
     tips: "Vaglið 1, Tórshavn. Køb bønner med hjem.",
+    links: ["https://brell.fo/", "https://visitfaroeislands.com/en/whatson/places/place/brell-cafe", "https://www.visittorshavn.fo/place/brell-cafe0/"],
     sources: ["guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -561,6 +684,9 @@ window.FAROE_ATTRACTIONS = [
     category: "aktivitet",
     description: "Butik med færøsk design og outdoor-udstyr — færøsk uld fra Sirri, souvenirs og outdoor-gear fra Sport 24 Outdoor, samlet under samme tag.",
     tips: "Skálatrøð 18, Tórshavn. Cykeludlejning via Rent a Bike & Outdoor (rentabike.fo): MTB, e-bikes og gravel samt guidede offroad-ture året rundt — godt udgangspunkt inden øerne udforskes.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Fabrikkin_hj%C3%A1_%C3%96str%C3%B6m.JPG/960px-Fabrikkin_hj%C3%A1_%C3%96str%C3%B6m.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Fabrikkin_hj%C3%A1_%C3%96str%C3%B6m.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/ostrom0?lang=en", "https://www.visittorshavn.fo/place/ostrom0/", "https://nordicdesign.ca/ostrom-home-faroese-design/"],
     sources: ["guidetofaroeislands.fo", "trykt turistbrochure 2026"],
     mustSee: false, visited: false
   },
@@ -576,6 +702,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Gratis 20-min gåtur op ad bakken for spektakulær udsigt. Gå kun ned i kløften i roligt hav. Søpapegøjer maj-august. Gjáargarður guesthouse med café.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Faroe_Islands%2C_Eysturoy%2C_Gj%C3%B3gv_%283%29.jpg/960px-Faroe_Islands%2C_Eysturoy%2C_Gj%C3%B3gv_%283%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFaroe_Islands%2C_Eysturoy%2C_Gj%C3%B3gv_(3).jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/gjogv0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/gjogv/", "https://en.wikipedia.org/wiki/Gj%C3%B3gv"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: true, visited: false
   },
@@ -589,6 +716,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "10-20 min gang fra parkeringen ved Gjáarskarð-passet (mellem Funningur og Gjógv) — følg de GRØNNE pæle fra passet. Gratis, kan gås hele året. Mudret sti, stejle passager, lille P-plads — kom tidligt. Fortsæt til Gjógv bagefter.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Faroe_Islands%2C_Eysturoy%2C_Funningsfj%C3%B8r%C3%B0ur_%28fjord%29.jpg/960px-Faroe_Islands%2C_Eysturoy%2C_Funningsfj%C3%B8r%C3%B0ur_%28fjord%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFaroe_Islands%2C_Eysturoy%2C_Funningsfj%C3%B8r%C3%B0ur_(fjord).jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/hvithamar", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/hvithamar/", "https://visitrunavik.fo/en/hvithamar-2/"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "magnificentworld.com", "trykt turistbrochure 2026"],
     mustSee: true, visited: false
   },
@@ -602,6 +730,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Letteste rute fra Eiðisskarð-passet, 2-3 timer retur, middel sværhedsgrad. KUN i godt vejr. Stierne er ikke velholdte.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sl%C3%A6ttaratindur_summer_2018.jpg/960px-Sl%C3%A6ttaratindur_summer_2018.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ASl%C3%A6ttaratindur_summer_2018.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/slattaratindur0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/slaettaratindur/", "https://en.wikipedia.org/wiki/Sl%C3%A6ttaratindur"],
     sources: ["visitfaroeislands.com"],
     mustSee: true, visited: false
   },
@@ -615,6 +744,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Udsigtspunktet lige uden for byen (gratis P, sjældent overrendt). Bjergvejen Funningur-Gjógv er spektakulær i sig selv — selve køreturen ned til bygden er en attraktion.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Funningur_village.jpg/960px-Funningur_village.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFunningur_village.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/funningur0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/funningur/", "https://en.wikipedia.org/wiki/Funningur"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08", "trykt turistbrochure 2026"],
     mustSee: false, visited: false
   },
@@ -628,6 +758,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Stien starter ved Kolsvegur — følg varderne. Stejlt ved toppen, mudrede passager. Eiði-området er også godt LUNDE-alternativ til Mykines. Kystlinjen nord for Eiði har spektakulære klippemønstre og vandfald — bedst i råt, blæsende vejr.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ei%C3%B0iskollur.jpg/960px-Ei%C3%B0iskollur.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AEi%C3%B0iskollur.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/eidiskollur/", "https://visitfaroeislands.com/en/whatson/places/place/eidi0", "https://danny-cph.com/eidiskollur-hike/"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -641,6 +772,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Bedst set fra stranden i Tjørnuvík eller fra vejen nord for Eiði.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Risin_and_Kellingin.JPG/960px-Risin_and_Kellingin.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ARisin_and_Kellingin.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/risin-kellingin", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/risin-kellingin/", "https://en.wikipedia.org/wiki/Risin_og_Kellingin"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -654,6 +786,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Vejen fra Funningsfjørður er ujævn. Lam i landskabet om foråret.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Elduv%C3%ADk%2C_Faroe_Islands.JPG/960px-Elduv%C3%ADk%2C_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AElduv%C3%ADk%2C_Faroe_Islands.JPG",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/elduvik/", "https://visitfaroeislands.com/en/whatson/hiking/hike/elduvik-funningsfjordur-elduvik", "https://en.wikipedia.org/wiki/Elduv%C3%ADk"],
     sources: ["danny-cph.com"],
     mustSee: false, visited: false
   },
@@ -667,6 +800,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "35 min fra Gjógv.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Fuglafjordur%2C_Faroe_Islands%2C_beach.jpg/960px-Fuglafjordur%2C_Faroe_Islands%2C_beach.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFuglafjordur%2C_Faroe_Islands%2C_beach.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/friendly-fuglafjordur0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/fuglafjordur/", "https://en.wikipedia.org/wiki/Fuglafj%C3%B8r%C3%B0ur"],
     sources: ["danny-cph.com"],
     mustSee: false, visited: false
   },
@@ -680,6 +814,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Typisk fangsttid: ca. 3 minutter per fisk. Book på forhånd.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Faroe_Islands%2C_Eysturoy%2C_Lj%C3%B3s%C3%A1_%281%29.jpg/960px-Faroe_Islands%2C_Eysturoy%2C_Lj%C3%B3s%C3%A1_%281%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFaroe_Islands%2C_Eysturoy%2C_Lj%C3%B3s%C3%A1_(1).jpg",
+    links: ["https://boat.fo/tour/fishing/", "https://visitfaroeislands.com/en/whatson/places/place/boat-tours-by-eidi"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -693,6 +828,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Godt stop væk fra turiststrømmen.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%C3%86%C3%B0uv%C3%ADk_seen_from_helicopter.jpg/960px-%C3%86%C3%B0uv%C3%ADk_seen_from_helicopter.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3A%C3%86%C3%B0uv%C3%ADk_seen_from_helicopter.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/aeduvik/", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/rituvik/", "https://en.wikipedia.org/wiki/%C3%86%C3%B0uv%C3%ADk"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -706,6 +842,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "175 DKK én vej / 350 DKK retur — registrér nummerplade online eller betal via lejebilsfirma.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Eysturoyartunnilin.jpg/960px-Eysturoyartunnilin.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AEysturoyartunnilin.jpg",
+    links: ["https://visitfaroeislands.com/en/plan-your-stay/getting-around/world-first-under-sea-roundabout", "https://guidetofaroeislands.fo/history-culture/eysturoyartunnilin-worlds-first-unders-sea-roundabout/", "https://en.wikipedia.org/wiki/Eysturoyartunnilin"],
     sources: ["danny-cph.com", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -721,6 +858,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Nås via undersøisk tunnel. Madture med fårespecialiteten skerpikjøt. Udgangspunkt for Klakkur og færgen til Kalsoy. God svømmehal — regnvejrs-kort.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Faroe_Islands_F%C3%B8royar_F%C3%A6r%C3%B8erne_Wyspy_Owcze_2019_%281%29.jpg/960px-Faroe_Islands_F%C3%B8royar_F%C3%A6r%C3%B8erne_Wyspy_Owcze_2019_%281%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFaroe_Islands_F%C3%B8royar_F%C3%A6r%C3%B8erne_Wyspy_Owcze_2019_(1).jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/klaksvik0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/klaksvik/", "https://visitnorth.fo/klaksvik/"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -734,6 +872,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Begyndervenlig, 1-2 timer retur fra parkeringen ved Hálsur. Mudret i partier, stejle kanter ved toppen. Fantastisk ved solnedgang.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/View_from_Klakkur_-_Faroe_Islands.jpg/960px-View_from_Klakkur_-_Faroe_Islands.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AView_from_Klakkur_-_Faroe_Islands.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/hiking/hike/klaksvik-klakkur", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/klakkur/", "https://visitnorth.fo/klakkur/"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "visitfaroeislands.com"],
     mustSee: true, visited: false
   },
@@ -747,6 +886,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Færge fra Klaksvík til Syðradalur (medbring bil eller gå). Kør til vejens ende (Trøllanes), vandretur ca. 1 time hver vej. Adgangsgebyr indført. Oplagt dagstur.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Kallur_kalsoy_2.jpg/960px-Kallur_kalsoy_2.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AKallur_kalsoy_2.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/kallur-lighthouse", "https://visitnorth.fo/kallur-lighthouse/", "https://en.wikipedia.org/wiki/Kalsoy"],
     sources: ["visitfaroeislands.com", "danny-cph.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: true, visited: false
   },
@@ -760,6 +900,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Tag den med på Kalsoy-turen sammen med Kallur. Lokale guidede ture fortæller legenderne. Mikladalur og Trøllanes er øens to hyggelige bygder — tag dem begge på Kalsoy-turen.",
     image: "https://upload.wikimedia.org/wikipedia/commons/4/41/Mikladalur.2.Kalsoy.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AMikladalur.2.Kalsoy.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/kopakonan-the-selkie-statue0", "https://visitnorth.fo/kopakonan/", "https://en.wikipedia.org/wiki/Mikladalur"],
     sources: ["visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -773,6 +914,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Nås via bro/dæmning fra Borðoy. Kombinér med Klaksvík-dagstur.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Vi%C3%B0arei%C3%B0i%2C_Faroe_Islands_%282%29.JPG/960px-Vi%C3%B0arei%C3%B0i%2C_Faroe_Islands_%282%29.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AVi%C3%B0arei%C3%B0i%2C_Faroe_Islands_(2).JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/vidareidi0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/vidareidi/", "https://visitnorth.fo/vidareidi/"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -786,6 +928,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "3-5 timer, stejle klipper og løse sten — IKKE for sarte sjæle, guide anbefales. Kort tid? Gå til foden af Malinsfjall i stedet.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cape_Enniberg%2C_Faroe_Islands.JPG/960px-Cape_Enniberg%2C_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ACape_Enniberg%2C_Faroe_Islands.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/villingardalsfjall", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/villingadalsfjall/", "https://hiking.fo/products/195/enniberg-villingadalsfjall?_l=en"],
     sources: ["guidetofaroeislands.fo", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -801,6 +944,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "God dagstur. Vandretur til fyrtårnet Borðan. Kom om aftenen for stormsvalerne. Lunder maj-august.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/N%C3%B3lsoy_by_Maciej_Brencz_%281%29.jpg/960px-N%C3%B3lsoy_by_Maciej_Brencz_%281%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AN%C3%B3lsoy_by_Maciej_Brencz_(1).jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/nolsoy1", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/nolsoy/", "https://en.wikipedia.org/wiki/N%C3%B3lsoy"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -816,6 +960,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Sandoyartunnilin (åbnet dec. 2023, 350 DKK retur) gør øen let tilgængelig — indkørsel nær Kirkjubøur. Færge videre til Skúvoy.",
     image: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Sandur_village_street.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ASandur_village_street.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/sandur0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/sandur/", "https://visitsandoy.fo/en/about6/history-nature/the-archaeology-of-sandur"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -829,6 +974,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/H%C3%BAsav%C3%ADk%2C_Faroe_Islands_%283%29.JPG/960px-H%C3%BAsav%C3%ADk%2C_Faroe_Islands_%283%29.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AH%C3%BAsav%C3%ADk%2C_Faroe_Islands_(3).JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/husavik0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/husavik/", "https://en.wikipedia.org/wiki/H%C3%BAsav%C3%ADk,_Faroe_Islands"],
     sources: ["danny-cph.com", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -842,6 +988,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Skopun_%284%29.JPG/960px-Skopun_%284%29.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ASkopun_(4).JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/skopun1", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/skopun/", "https://en.wikipedia.org/wiki/Skopun"],
     sources: ["danny-cph.com"],
     mustSee: false, visited: false
   },
@@ -855,6 +1002,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Færge fra Sandur på Sandoy.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Skuvoy%2C_Faroe_Islands.jpg/960px-Skuvoy%2C_Faroe_Islands.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ASkuvoy%2C_Faroe_Islands.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/skuvoy", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/skuvoy/", "https://visitsandoy.fo/en/visit-skuvoy"],
     sources: ["danny-cph.com", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -870,6 +1018,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Bjergvej fra Lopra; meget kort gåtur fra grusparkering til toppen. Smyril-færgen fra Tórshavn tager 2 timer (gratis for gående, betaling for bil). Overvej overnatning — én dag er for lidt til Suðuroy.",
     image: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Beinisv%C3%B8r%C3%B0.su%C3%B0uroy.2.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ABeinisv%C3%B8r%C3%B0.su%C3%B0uroy.2.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/beinisvord0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/beinisvoerd/", "https://en.wikipedia.org/wiki/Beinisv%C3%B8r%C3%B0"],
     sources: ["guidetofaroeislands.fo", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -883,6 +1032,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Gå mod vest fra Sandvík (nordligste bygd). Træbroen kræver gode nerver — fremragende udsigt.",
     image: "https://upload.wikimedia.org/wikipedia/commons/4/42/Asmundarstakkur.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AAsmundarstakkur.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/asmundarstakkur-veiwpoint", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/asmundarstakkur/"],
     sources: ["guidetofaroeislands.fo", "visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -896,7 +1046,228 @@ window.FAROE_ATTRACTIONS = [
     tips: "Vandretur fra Tvøroyri.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Hvannhagi_9.jpg/960px-Hvannhagi_9.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AHvannhagi_9.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/hvannhagi/", "https://visitsuduroy.fo/en/whatson/hiking/hike/hvannhagi"],
     sources: ["visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
+    mustSee: false, visited: false
+  },
+
+  // ---------- TILFØJET 2026-07-16 (tomme områder: øst-Streymoy & midt-Eysturoy) ----------
+  {
+    id: "hvalstationen-vid-air",
+    name: "Hvalstationen við Áir",
+    island: "Streymoy",
+    lat: 62.17330, lng: -6.97280,
+    category: "kultur",
+    description: "Nedlagt hvalstation fra 1905 — den sidste bevarede af sin slags på den nordlige halvkugle (kun 2 andre i verden). Nu museum: gå rundt mellem flensedæk, spil, dampkedler og harpuner. Makabert-spændende for 8-12-årige.",
+    tips: "~25 min fra Vestmanna, mellem Hvalvík og Hósvík. Åben ca. medio juni-medio august, KUN WEEKENDER — guidede ture kl. 11, 13 og 15 (45-60 min). 80 kr/voksen, børn 0-18 GRATIS. Billetten gælder også Tjóðsavnið i Tórshavn i en uge.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Faroe_Islands%2C_Streymoy%2C_abandoned_whaling_station_at_Vi%C3%B0_%C3%81ir_%281%29.jpg/960px-Faroe_Islands%2C_Streymoy%2C_abandoned_whaling_station_at_Vi%C3%B0_%C3%81ir_%281%29.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Faroe_Islands,_Streymoy,_abandoned_whaling_station_at_Vi%C3%B0_%C3%81ir_(1).jpg",
+    links: ["https://www.tjodsavnid.fo/projects//hvalastodin-vid-air-dlntl", "https://visitfaroeislands.com/en/whatson/places/place/hvalastodin-vid-air0", "https://en.wikipedia.org/wiki/Vi%C3%B0_%C3%81ir"],
+    sources: ["visitfaroeislands.com", "tjodsavnid.fo", "en.wikipedia.org", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "kajakk-hosvik",
+    name: "Familiekajak i Hósvík (Kajakk.fo)",
+    island: "Streymoy",
+    lat: 62.16000, lng: -6.96400, // ca. — basen Toftatún 1, Hósvík
+    category: "aktivitet",
+    description: "Guidet 3-timers FAMILIE-kajaktur i stabile tandemkajakker i den beskyttede fjord ved Hósvík — børn sidder foran en voksen, tør-/våddragt i børnestørrelser, redningsvest og instruktion inkluderet. Rider, terner og skarver undervejs.",
+    tips: "~20-25 min fra Vestmanna. Fra 900 kr/person, hele året (vejrafhængigt, fuld refusion ved aflysning) — book på kajakk.fo. Familieturen her er det børnevenlige alternativ til 'Cliffs and Caves'-turen fra Leynar.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/H%C3%B3sv%C3%ADk%2C_Faroe_Islands.JPG/960px-H%C3%B3sv%C3%ADk%2C_Faroe_Islands.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:H%C3%B3sv%C3%ADk,_Faroe_Islands.JPG",
+    links: ["https://www.kajakk.fo/product/family-kayaking/", "https://visitfaroeislands.com/en/whatson/places/place/kajakkfo10", "https://guidetofaroeislands.fo/book-holiday-trips/kayaking-from-hosvik/"],
+    sources: ["kajakk.fo", "visitfaroeislands.com", "guidetofaroeislands.fo", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "langasandur",
+    name: "Langasandur",
+    island: "Streymoy",
+    lat: 62.23720, lng: -7.05360,
+    category: "natur",
+    description: "Bygden hvis navn betyder 'den lange sandstrand' — en af de få rigtige sandstrande på Streymoys østkyst, med udsigt over Sundini til Eysturoy. Skaller, sandslotte og soppeture.",
+    tips: "Få minutter fra Fossá. Ingen faciliteter. OBS: kraftig strøm i Sundini-strædet — sop kun ved kanten, egentlig badning frarådes.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Faroe_Islands%2C_Streymoy%2C_Langasandur_%2801%29.jpg/960px-Faroe_Islands%2C_Streymoy%2C_Langasandur_%2801%29.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Faroe_Islands,_Streymoy,_Langasandur_(01).jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/langasandur/", "https://en.wikipedia.org/wiki/Langasandur", "https://trap.fo/en/the-islands-towns-and-settlements/streymoy/langasandur/"],
+    sources: ["guidetofaroeislands.fo", "en.wikipedia.org", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "nordradalsskard",
+    name: "Norðradalsskarð (Koltur-udsigten)",
+    island: "Streymoy",
+    lat: 62.04190, lng: -6.92610,
+    category: "udsigt",
+    description: "Bjergpasset over Norðradalur med et af Færøernes mest ikoniske views: den pyramideformede ø Koltur, der rejser sig af havet, med den snoede vej og græstagsbygden under sig.",
+    tips: "Ved vejen — ingen gåtur nødvendig. Lille holdeplads ved passet. Et af landets mest VINDUDSATTE steder: hold fast i bildøre (og børn). Nås via Oyggjarvegur fra Tórshavn-siden.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Koltur_Island-pjt.jpg/960px-Koltur_Island-pjt.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Koltur_Island-pjt.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/nordradalsskard00", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/nordradalsskard/"],
+    sources: ["visitfaroeislands.com", "guidetofaroeislands.fo", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "oyggjarvegur",
+    name: "Oyggjarvegur (den gamle bjergvej)",
+    island: "Streymoy",
+    lat: 62.10000, lng: -6.91000, // ca. — udsigtspunktet over Kollafjørður
+    category: "udsigt",
+    description: "18 km asfalteret panoramavej — hovedvejen til Tórshavn indtil 1992, nu næsten biltom. Udsigt højt over Kollafjørður og Kaldbaksfjørður, og undervejs Mjørkadalur: formentlig verdens eneste fængsel med græstag.",
+    tips: "Kør den som 'hemmelig vej'-alternativ hjem fra Tórshavn i klart vejr — koster kun ~15 min ekstra og forbinder Sornfelli og Norðradalsskarð. Fængslet ses kun udefra.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Oyggjarvegur.2010.1.jpg/960px-Oyggjarvegur.2010.1.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Oyggjarvegur.2010.1.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/oyggjarvegurin0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/oyggjarvegur/"],
+    sources: ["guidetofaroeislands.fo", "visitfaroeislands.com", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "kollafjardar-svimjiholl",
+    name: "Kollafjarðar svimjihøll",
+    island: "Streymoy",
+    lat: 62.11680, lng: -6.90750,
+    category: "aktivitet",
+    description: "Lille offentlig svømmehal i skolen i Kollafjørður — nærmeste regnvejrs-es i ærmet fra Vestmanna (tættere end Tórshavns store hal i Gundadalur).",
+    tips: "~15-20 min fra Vestmanna, Botnavegur 4. Offentlig adgang om eftermiddagen uden for skoletid — tider/pris UVERIFICERET: ring +298 302550 eller tjek torshavn.fo først.",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/kollafjardar-svimjiholl0"],
+    sources: ["visitfaroeislands.com", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "kaldbak",
+    name: "Kaldbak",
+    island: "Streymoy",
+    lat: 62.06310, lng: -6.82610,
+    category: "landsby",
+    description: "Fredelig fjordbygd (beboet siden 1000-tallet — fik først vej i 1980!) med sortmalet græstagskirke fra 1835, lille marina og vandfald på fjordens modsatte side. Børnene kan spotte lakseringene i fjorden.",
+    tips: "20 min fra Tórshavn, kort stop (30-45 min). Kirken typisk lukket uden for gudstjeneste. Kombinér med Týggjará-vandfaldet, som passeres lige før bygden.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Church_of_Kaldbak%2C_Faroe_Islands.JPG/960px-Church_of_Kaldbak%2C_Faroe_Islands.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Church_of_Kaldbak,_Faroe_Islands.JPG",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/kaldbak/", "https://en.wikipedia.org/wiki/Kaldbak"],
+    sources: ["guidetofaroeislands.fo", "en.wikipedia.org", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "g-festival",
+    name: "G! Festival (16.-18. juli 2026)",
+    island: "Eysturoy",
+    lat: 62.18570, lng: -6.75590,
+    category: "aktivitet",
+    description: "Færøernes store strandfestival i Syðrugøta: koncerter direkte på sandstranden og i bygden, hot tubs og sauna i strandkanten — og et dedikeret børneprogram (barnaskráin). BØRN TIL OG MED 12 ÅR ER GRATIS.",
+    tips: "16.-18. JULI 2026 — netop nu! Partout 795-1.595 kr (webshop.gfestival.fo); afklar om 12-års-grænsen inkluderer en der ER 12, og om dagsbilletter findes i år. Parkering kaotisk — kom tidligt eller tag bus. Regntøj. ~50-60 min fra Vestmanna.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Eiv%C3%B8r_P%C3%A1lsd%C3%B3ttir_at_the_G%21_Festival%2C_Faroe_Islands%2C_2004.jpg/960px-Eiv%C3%B8r_P%C3%A1lsd%C3%B3ttir_at_the_G%21_Festival%2C_Faroe_Islands%2C_2004.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Eiv%C3%B8r_P%C3%A1lsd%C3%B3ttir_at_the_G!_Festival,_Faroe_Islands,_2004.jpg",
+    links: ["https://gfestival.fo/", "https://visitfaroeislands.com/en/whatson/events/event/g-festival0", "https://en.wikipedia.org/wiki/G!_Festival"],
+    sources: ["gfestival.fo", "visitfaroeislands.com", "jambase.com", "deep research 2026-07-16"],
+    mustSee: true, visited: false
+  },
+  {
+    id: "rinkusteinar",
+    name: "Rinkusteinar (de vippende sten)",
+    island: "Eysturoy",
+    lat: 62.27260, lng: -6.85330,
+    category: "natur",
+    description: "To kæmpe klippeblokke i strandkanten ved Oyndarfjørður, der har rokket i takt med bølgerne i århundreder — sagnet siger en heks forvandlede to sørøverskibe til sten. En fastgjort kæde gør bevægelsen synlig.",
+    tips: "Skilt ved vejen lige før bygden, kort sti til kysten (10-20 min retur), gratis, lille P-lomme. Bedst med lidt bølger — helt stille vand giver mindre vip. Perfekt mystik-stop for 8-12-årige.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Rinkusteinar%2C_Oyndarfj%C3%B8r%C3%B0ur%2C_Faroe_Islands.JPG/960px-Rinkusteinar%2C_Oyndarfj%C3%B8r%C3%B0ur%2C_Faroe_Islands.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Rinkusteinar,_Oyndarfj%C3%B8r%C3%B0ur,_Faroe_Islands.JPG",
+    links: ["https://visitrunavik.fo/en/rinkusteinar-the-rocking-stones/", "https://en.wikipedia.org/wiki/Oyndarfj%C3%B8r%C3%B0ur"],
+    sources: ["atlasobscura.com", "visitrunavik.fo", "visitfaroeislands.com", "deep research 2026-07-16"],
+    mustSee: true, visited: false
+  },
+  {
+    id: "svimjihollin-bylgjan",
+    name: "Svimjihøllin í Bylgjuni (Runavík)",
+    island: "Eysturoy",
+    lat: 62.10670, lng: -6.72360,
+    category: "aktivitet",
+    description: "Splinterny svømmehal (åbnet februar 2026, 170 mio. kr.) i sportskomplekset Bylgjan: 25 m-bassin med 8 baner, børnebassin, varmtvandsbassin og wellness — øens bedste regnvejrsplan.",
+    tips: "~50 min fra Vestmanna, Mýravegur. Åbningstider/priser for offentlig svømning UVERIFICERET — tjek runavik.fo før turen. Kombinér med Toftavatn-gåturen og caféerne i Saltangará.",
+    links: ["https://runavik.fo/news/2810/svimjihollin-i-runavik", "https://www.eyp.fo/myndir-av-nyggju-svimjihollini-i-runavik/"],
+    sources: ["kvf.fo", "runavik.fo", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "gamle-gota",
+    name: "Gamle Gøta (Blásastova & Tróndur-statuen)",
+    island: "Eysturoy",
+    lat: 62.20090, lng: -6.74190,
+    category: "kultur",
+    description: "Komplet gammel bygdekerne med græstørvshuse og kirke fra 1833 — vikingehøvdingen Tróndur í Gøtu fra Færeyingasaga boede her; bronzestatuen af ham står ~100 m fra museet Blásastova. Sortsandstrand i Syðrugøta.",
+    tips: "Blásastova åben 15/5-15/9: man-tir + lør-søn 14-16 (ons-fre efter aftale, +298 222717). 100 kr/voksen, børn 0-14 kun 10 kr. På vejen: Gøtu kirkja i Gøtugjógv har glasmosaik-altertavle af Tróndur Patursson.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Church_of_Nor%C3%B0rag%C3%B8ta%2C_Faroe_Islands.JPG/960px-Church_of_Nor%C3%B0rag%C3%B8ta%2C_Faroe_Islands.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Church_of_Nor%C3%B0rag%C3%B8ta,_Faroe_Islands.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/history-museum-blasastova0", "https://visitrunavik.fo/en/history-museum-blasastova-in-nordragota/", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/nordragota/"],
+    sources: ["visiteysturoy.fo", "visitrunavik.fo", "visitfaroeislands.com", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "varmakelda",
+    name: "Varmakelda (den varme kilde)",
+    island: "Eysturoy",
+    lat: 62.21610, lng: -6.77460,
+    category: "natur",
+    description: "Lun kilde (16-18°C) i strandkanten mellem Gøta og Fuglafjørður med helbredende ry siden middelalderen — følg træpælene fra vejen forbi varderne ned til havet. Selve kilden er lille (bobler og algegrønne sten), men jagten er sjov.",
+    tips: "Sælg den som 'find den hemmelige kilde'-mission. Gratis, 20-40 min retur, parkering i vejsiden på rute 65. Forventningsafstem: det er en detektivopgave, ikke en badekilde.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Varmakelda.JPG/960px-Varmakelda.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Varmakelda.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/varmakelda-the-healing-spring", "https://www.framtak.com/eysturoy/places/varmakelda.html", "https://trap.fo/en/culture/varmakelda/"],
+    sources: ["framtak.com", "trap.fo", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "toftanes-leirvik",
+    name: "Toftanes (vikingegård i Leirvík)",
+    island: "Eysturoy",
+    lat: 62.21220, lng: -6.71220,
+    category: "kultur",
+    description: "Frit tilgængelige ruiner af en vikingegård fra 800-900-tallet (20 m langhus), udgravet 1982-87 med tusindvis af fund — bl.a. to trækors fra 900-tallet. Et af Færøernes ældste bopladsfund.",
+    tips: "Gratis 15-20 min stop midt i bygden. Kombinér med havnen (færgehavn til Klaksvík indtil tunnelen i 2006) og udsigten over Djúpini mod Kalsoy. Guidede ture: +298 730020.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Wooden_crosses_from_Toftanes.jpg/960px-Wooden_crosses_from_Toftanes.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Wooden_crosses_from_Toftanes.jpg",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/toftanes0", "https://historypressfaroeislands.com/downloads/faroe-islands/the-norse-landnam-in-the-faroe-islands/"],
+    sources: ["visitfaroeislands.com", "trap.fo", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "selatrad",
+    name: "Selatrað",
+    island: "Eysturoy",
+    lat: 62.16010, lng: -6.87790,
+    category: "landsby",
+    description: "Stille vestkystbygd ved Sundini med en af Færøernes ældste plantager (skov er eksotisk her!), lille badestrand og campingplads ved havnen. Bygdestien mod Oyri (6 km, let) passerer basaltsøjler.",
+    tips: "Gå evt. bare 1-2 km ud ad bygdestien og retur med børnene. P ved Skótadeplin øverst i bygden. Camping maj-sep med toilet/bad.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Selatra%C3%B0%2C_Faroe_Islands_%282%29.JPG/960px-Selatra%C3%B0%2C_Faroe_Islands_%282%29.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Selatra%C3%B0,_Faroe_Islands_(2).JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/selatrad0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/selatrad/", "https://en.wikipedia.org/wiki/Selatra%C3%B0"],
+    sources: ["visitfaroeislands.com", "trap.fo", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "snaeldan-strendur",
+    name: "Snældan spinderi (Strendur)",
+    island: "Eysturoy",
+    lat: 62.10920, lng: -6.75850,
+    category: "aktivitet",
+    description: "Færøernes eneste spinderi — familiedrevet siden 1949, 4. generation. Strikvarefabrik ved fjordkanten med fabriksbutik: uld, garn og sweatre, også i børnestørrelser.",
+    tips: "KUN åbent man-fre 9-16 (lukket weekend). Langanes 6. Maskinerne kan ses ved gruppebesøg efter aftale. Kombinér med Selatrað på samme vej.",
+    links: ["https://snaldan.fo/pages/our-story", "https://visitfaroeislands.com/en/whatson/places/place/snaldan-yarn-producer0"],
+    sources: ["snaldan.fo", "visitfaroeislands.com", "deep research 2026-07-16"],
+    mustSee: false, visited: false
+  },
+  {
+    id: "runavik-saltangara",
+    name: "Runavík & Saltangará",
+    island: "Eysturoy",
+    lat: 62.11000, lng: -6.72300,
+    category: "landsby",
+    description: "Eysturoys handelscentrum — én 10 km lang bebyggelse langs Skálafjørður, Færøernes største naturhavn. Praktisk stop: supermarkeder, caféer, pizzeria og den nye svømmehal.",
+    tips: "Bónus på Heiðavegur 40. God legeplads i Søldarfjørður lidt nordpå (præcis placering uverificeret). Caféerne her er det oplagte stop efter Toftavatn-gåturen.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Harbour_of_Runav%C3%ADk%2C_Faroe_Islands.JPG/960px-Harbour_of_Runav%C3%ADk%2C_Faroe_Islands.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Harbour_of_Runav%C3%ADk,_Faroe_Islands.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/runavik0?lang=en", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/runavik/", "https://visitrunavik.fo/en/saltangara-2/"],
+    sources: ["trap.fo", "visitfaroeislands.com", "deep research 2026-07-16"],
     mustSee: false, visited: false
   },
 
@@ -909,6 +1280,9 @@ window.FAROE_ATTRACTIONS = [
     category: "aktivitet",
     description: "Højhastigheds-RIB-bådtur fra Gamlarætt til Hestur og ind i Klæmintsgjógv — med ~348.000 m³ kandidat til verdens største søhule. RIB62 sejler også Golden Hour Puffin Safari, Koltur-shuttle og ture til Stóra Dímun — og arrangerer KONCERTER inde i selve hulen.",
     tips: "Afgang fra Gamlarætt færgehavn (ca. 40-45 min fra Vestmanna). Fra 700 kr/person; grottekoncert i hulen fra 1.095 kr. Book på rib62.com (ledige juli-afgange, også aften). VIGTIGT: ingen aldersgrænse offentliggjort — ring +298 566262 / info@rib62.com og bekræft at 8-årige må komme med. Vejrafhængigt.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Hestur%2C_Faroe_Islands.JPG/960px-Hestur%2C_Faroe_Islands.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Hestur,_Faroe_Islands.JPG",
+    links: ["https://www.rib62.com/experience/7daf16055c2fe784739a42af21592a56", "https://guidetofaroeislands.fo/book-holiday-trips/caving-tour-hestur/", "https://guidetofaroeislands.fo/tour-operator-tours-holiday/rib62/"],
     sources: ["rib62.com", "adventure.fo", "showcaves.com", "deep research 2026-07-15"],
     mustSee: true, visited: false
   },
@@ -920,6 +1294,7 @@ window.FAROE_ATTRACTIONS = [
     category: "aktivitet",
     description: "Rappelling/abseiling ned ad lodrette havklipper med certificerede instruktører — begynderlokationer Tvillingsgjógv og Ravnagjógv (31-142 m nedfiring!). Der findes også en 1-times abseiling-tur på Kalsoy.",
     tips: "Pris og minimumsalder oplyses kun ved kontakt: +298 267900 / reika@reika.fo (reika.fo). Min. 2 personer. Lokation varierer efter vejr — aftal mødested ved booking.",
+    links: ["https://www.reika.fo/rappelling", "https://visitfaroeislands.com/en/see-do/activities/adventure-sports/rappelling", "https://visitfaroeislands.com/en/whatson/places/place/reika-adventures"],
     sources: ["reika.fo", "visitfaroeislands.com", "guidetofaroeislands.fo", "deep research 2026-07-15"],
     mustSee: false, visited: false
   },
@@ -931,6 +1306,7 @@ window.FAROE_ATTRACTIONS = [
     category: "aktivitet",
     description: "Rideture på islandske heste i fjeldene over Tórshavn — fra 1,5 time til heldagsture med panoramaudsigt over byen og Nólsoy.",
     tips: "Minimumsalder 7 år — alle tre børn kan være med. Maks. 95 kg. Book på berghestar.fo. Alternativ operatør: Fjallaross på Streymoy.",
+    links: ["https://www.berghestar.fo/about-us", "https://visitfaroeislands.com/en/whatson/places/place/berg-hestar-horseriding", "https://guidetofaroeislands.fo/tour-operator-tours-holiday/berg-hestar/"],
     sources: ["berghestar.fo", "visitfaroeislands.com", "deep research 2026-07-15"],
     mustSee: false, visited: false
   },
@@ -942,6 +1318,7 @@ window.FAROE_ATTRACTIONS = [
     category: "aktivitet",
     description: "PADI-dykkercenter i Tórshavn med heldagsture (8,5 t) i det klare, kolde Nordatlanten — mest for de store/far. Faroe Dive i Klaksvík er alternativet mod nord; snorkling for hele familien fås også hos surf-guiden i Tjørnuvík.",
     tips: "Fra 5.980 kr/person for heldagstur — spørg om alderskrav og snorkel-alternativer for børnene.",
+    links: ["https://northatlanticdiving.com/product/guided-dives/", "https://guidetofaroeislands.fo/book-holiday-trips/guided-dive-faroe-islands/", "https://visitfaroeislands.com/en/see-do/activities/at-sea/diving"],
     sources: ["guidetofaroeislands.fo", "faroedive.com", "deep research 2026-07-15"],
     mustSee: false, visited: false
   },
@@ -955,6 +1332,7 @@ window.FAROE_ATTRACTIONS = [
     category: "vandretur",
     description: "Stejl og imponerende klippeskrænt på Sandoys vestkyst med udsigt over Atlanterhavet — kombinér med de tætliggende havstakke.",
     tips: "Parkér ved havnen i Skopun (gratis, masser af plads) — IKKE ved trailheadet. Gå 1,7 km mod vest ad Høvdarhagavegur til asfalten bliver til grus, følg stien til venstre (ca. 50 m efter). Følg de røde pæle de sidste ca. 700 m til udsigtspunktet. Godt solnedgangsspot.",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/liraberg-cliff/", "https://visitfaroeislands.com/en/whatson/hiking/hike/skopun-lirabergshalsur"],
     sources: ["visitfaroeislands.com", "guidetofaroeislands.fo", "bruger-tip (lokalkendt Sandoy) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -968,6 +1346,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Parkér tæt på stien. Kan gås som en del af ruten eller som en fuld rundtur. Caféer i nærliggende Runavík og Saltangará — perfekt stop efter gåturen.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Toftavatn.jpg/960px-Toftavatn.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AToftavatn.jpg",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/toftavatn/", "https://visitrunavik.fo/en/toftavatn-3/", "https://visitfaroeislands.com/en/whatson/hiking/hike/toftir-runavik"],
     sources: ["guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -979,6 +1358,9 @@ window.FAROE_ATTRACTIONS = [
     category: "vandretur",
     description: "10 km bjergvandring lokalt kendt som 'Fyri Vestan' ('vestsiden') — en af færingernes mest populære ture, gennem den urørte dal Mannafelsdalur med kystudsigt, vandfald og bække.",
     tips: "Trailhead ved bjergpasset Skeiðsskarð — kør Oyggjarvegur fra Tórshavn, drej til Skeiðsskarð og parkér. Guidet tur (4 t, marts-oktober) med afhentning i Tórshavn kan bookes på guidetofaroeislands.fo. Bedst i godt vejr / til solnedgang.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Nor%C3%B0radalur_2022.jpg/960px-Nor%C3%B0radalur_2022.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Nor%C3%B0radalur_2022.jpg",
+    links: ["https://guidetofaroeislands.fo/book-holiday-trips/viking-hiking/", "https://faroetrekking.com/booking/fyri-vestan/"],
     sources: ["guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -990,6 +1372,9 @@ window.FAROE_ATTRACTIONS = [
     category: "aktivitet",
     description: "Guidet heldagstur til den afsidesliggende sydligste ø Suðuroy — barsk, dramatisk kystlandskab (bl.a. Beinisvørð) som ellers kræver overnatning at nå at se ordentligt.",
     tips: "2 timers Smyril Line-færge hver vej fra Tórshavn (gratis gående, betaling for bil). Guidet tur: afhentning i Tórshavn, ca. 6 timer på selve øen, dækker de fleste highlights på én dag. Book på guidetofaroeislands.fo.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Beinisv%C3%B8r%C3%B0.Su%C3%B0uroy.1.jpg/960px-Beinisv%C3%B8r%C3%B0.Su%C3%B0uroy.1.jpg",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Beinisv%C3%B8r%C3%B0.Su%C3%B0uroy.1.jpg",
+    links: ["https://guidetofaroeislands.fo/book-holiday-trips/suduroy-day-tour/", "https://guidetofaroeislands.fo/book-holiday-trips/the-suduroy-one-day-excursion/", "https://guidetofaroeislands.fo/travel-information/suduroy-island-things-to-do/"],
     sources: ["guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -1003,6 +1388,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "LOKALT TIP fra ven hvis far er født her: 'lidt af en oplevelse'. Kombinér med Sandur og Húsavík på Sandoy-turen (Sandoyartunnilin).",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Skarvanes%2C_Faroe_Islands.JPG/960px-Skarvanes%2C_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ASkarvanes%2C_Faroe_Islands.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/skarvanes0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/skarvanes/", "https://en.wikipedia.org/wiki/Skarvanes"],
     sources: ["lokalt tip (færøsk ven) 2026-07-07"],
     mustSee: false, visited: false
   },
@@ -1014,6 +1400,7 @@ window.FAROE_ATTRACTIONS = [
     category: "aktivitet",
     description: "Zipline hen over en afsides bugt i Hoyvík (Tórshavns nordlige forstad) med udsigt over den barske kyst og Nordatlanten.",
     tips: "600 DKK, ca. 1 time, juni-august. Min. 7 år og 30-130 kg. Book online (fuld refusion op til 48 t før); præcist mødested oplyses i voucheren. Tag vindtæt tøj på. Frarådes ved højdeskræk/hjerteproblemer/graviditet.",
+    links: ["https://www.outdoor.fo/en/zip-line", "https://guidetofaroeislands.fo/book-holiday-trips/zip-line-activity-faroe-islands/"],
     sources: ["guidetofaroeislands.fo"],
     mustSee: false, visited: false
   },
@@ -1027,6 +1414,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Punktet står på heliporten i Klaksvík (Fossabrúgv). Book tidligt på atlanticairways.com — få afgange (typisk man/ons/fre/søn) og små maskiner. OBS: man må kun flyve ÉN vej pr. dag (ingen retur samme dag) — planlæg hjemtur med bus/færge/bil. Afgang i Tórshavn fra Boðanes-heliporten.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Atlantic_Airways_AgustaWestland_AW139.jpg/960px-Atlantic_Airways_AgustaWestland_AW139.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AAtlantic_Airways_AgustaWestland_AW139.jpg",
+    links: ["https://www.atlanticairways.com/en/helicopter", "https://www.ssl.fo/en/timetable/helicopter", "https://visitfaroeislands.com/en/whatson/places/place/experience-vagar-from-above-atlantic-airways"],
     sources: ["atlanticairways.com", "bruger-ønske 2026-07-07"],
     mustSee: false, visited: false
   },
@@ -1048,6 +1436,7 @@ window.FAROE_ATTRACTIONS = [
       { kind: "dot",  at: [62.1148,-6.9760], text: "⟲", color: "#ea580c" },
       { kind: "note", at: [62.1148,-6.9760], text: "Vend her (ca. midtvejs): Stórareyn — basalt + udsigt", color: "#ea580c", anchor: [240, 32] }
     ],
+    links: ["https://visitfaroeislands.com/en/whatson/hiking/hike/leynar-kollafjordur"],
     sources: ["visitfaroeislands.com"],
     mustSee: false, visited: false
   },
@@ -1061,6 +1450,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Gå MOD Skælingur — så starter man højt, og udsigten er bedst. Varder det meste af vejen, men enderne er dårligt markeret (fra Kollafjørður: første varde ses lige efter vejen). God parkering ved stistarten i Skælingur. Kræver to biler eller afhentning.",
     image: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sk%C3%A6lingsfjall%2C_Streymoy_%28faroe_islands%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ASk%C3%A6lingsfjall%2C_Streymoy_(faroe_islands).jpg",
+    links: ["https://hikewithpol.fo/item/1422?_l=en", "https://visitfaroeislands.com/en/whatson/hiking/hike/skalingur-nordradalur"],
     sources: ["visitfaroeislands.com", "hikewithpol.fo"],
     mustSee: false, visited: false
   },
@@ -1072,10 +1462,11 @@ window.FAROE_ATTRACTIONS = [
     island: "Streymoy",
     lat: 62.27590, lng: -7.09403,
     category: "landsby",
-    description: "Meget lille og hyggelig bygd på nordkysten med Færøernes eneste ottekantede kirke (1856).",
-    tips: "LOKALT TIP — klassisk dagstur: Fossá-vandfaldet → Haldórsvík → Tjørnuvík (Risin & Kellingin) → tilbage mod Eiði → vandretur til Eiðiskollur → Funningur → Gjógv.",
+    description: "Meget lille og hyggelig bygd på nordkysten med Færøernes eneste ottekantede kirke (1856) — altertavlen er en parafrase over da Vincis Sidste Nadver med NULEVENDE færinger som apostle. Lille vandfald midt i bygden.",
+    tips: "~35 min fra Vestmanna. Kirken er kun åben søn-/helligdage — 'find ansigterne'-opgave til børnene ved altertavlen. LOKALT TIP — klassisk dagstur: Fossá-vandfaldet → Haldórsvík → Tjørnuvík (Risin & Kellingin) → tilbage mod Eiði → vandretur til Eiðiskollur → Funningur → Gjógv.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Church_of_Haldarsv%C3%ADk%2C_Faroe_Islands.JPG/960px-Church_of_Haldarsv%C3%ADk%2C_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AChurch_of_Haldarsv%C3%ADk%2C_Faroe_Islands.JPG",
+    links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/haldorsvik/", "https://en.wikipedia.org/wiki/Hald%C3%B3rsv%C3%ADk", "https://trap.fo/en/the-islands-towns-and-settlements/streymoy/haldorsvik/"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -1089,6 +1480,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "God pause med børn. Kombinér med Listasavn (nationalgalleriet), som ligger i parkens nordende.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Vi%C3%B0arlundin_%C3%AD_Havn_the_Central_Park_of_T%C3%B3rshavn_Faroe_Islands.JPG/960px-Vi%C3%B0arlundin_%C3%AD_Havn_the_Central_Park_of_T%C3%B3rshavn_Faroe_Islands.JPG",
     imagePage: "https://commons.wikimedia.org/wiki/File%3AVi%C3%B0arlundin_%C3%AD_Havn_the_Central_Park_of_T%C3%B3rshavn_Faroe_Islands.JPG",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/the-park", "https://da.wikipedia.org/wiki/Vi%C3%B0arlundin"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -1102,6 +1494,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Tjek programmet på nlh.fo — ofte gratis udstillinger. Godt regnvejrs-kort.",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nordic_house%2C_faroe_islands_%282%29.jpg/960px-Nordic_house%2C_faroe_islands_%282%29.jpg",
     imagePage: "https://commons.wikimedia.org/wiki/File%3ANordic_house%2C_faroe_islands_(2).jpg",
+    links: ["https://www.nlh.fo/en", "https://visitfaroeislands.com/en/whatson/places/place/nordic-house-nordurlandahusid0", "https://en.wikipedia.org/wiki/Nordic_House_in_the_Faroe_Islands"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -1113,6 +1506,9 @@ window.FAROE_ATTRACTIONS = [
     category: "kultur",
     description: "Færøernes Nationalmuseum i Hoyvík — her ligger bl.a. vikingefundene fra Kvívík (redskaber, legetøj) og de berømte middelalder-kirkestole fra Kirkjubøur.",
     tips: "Brekkutún 6, Hoyvík (nord for centrum). Frilandsmuseum med gamle gårde i gåafstand (Kúrdalsvegur). Godt at kombinere med besøgene i Kvívík og Kirkjubøur — så ser man tingene OG stederne de kom fra.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Faroese_boat_collection.JPG/960px-Faroese_boat_collection.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Faroese_boat_collection.JPG",
+    links: ["https://www.tjodsavnid.fo/en/english", "https://visitfaroeislands.com/en/whatson/places/place/the-national-museum0", "https://en.wikipedia.org/wiki/National_Museum_of_the_Faroe_Islands"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08", "tjodsavnid.fo"],
     mustSee: false, visited: false
   },
@@ -1124,6 +1520,9 @@ window.FAROE_ATTRACTIONS = [
     category: "kultur",
     description: "Litografisk værksted og galleri, hvor kendte færøske og danske kunstnere laver stentryk — man kan se værkstedet i brug og købe tryk med hjem.",
     tips: "Skálatrøð 16, ved havnen (samme hus-klynge som Østrøm). Gratis at kigge ind.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Fabrikkin_hj%C3%A1_%C3%96str%C3%B6m.JPG/960px-Fabrikkin_hj%C3%A1_%C3%96str%C3%B6m.JPG",
+    imagePage: "https://commons.wikimedia.org/wiki/File:Fabrikkin_hj%C3%A1_%C3%96str%C3%B6m.JPG",
+    links: ["https://steinprent.com/", "https://visitfaroeislands.com/en/about-vfi/art-culture-and-sports/visual-art0/steinprent"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08", "steinprent.com"],
     mustSee: false, visited: false
   },
@@ -1135,6 +1534,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Konfekture/café i Tórshavn — godt til brunch, kaffe og kager.",
     tips: "Tórsgøta, centrum.",
+    links: ["https://gomagott.fo/", "https://visitfaroeislands.com/en/whatson/places/place/gomagott0"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -1146,6 +1546,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Ismejeri i SMS-shoppingcentret — 'virkelig lækker is, særligt salt karamel'.",
     tips: "Inde i SMS (R.C. Effersøes gøta). Kombinér med shopping-turen.",
+    links: ["https://www.omana.fo/", "https://visitfaroeislands.com/en/whatson/places/place/omana0"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -1157,6 +1558,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Kaffehus ved havnefronten i Tórshavn — kaffe, kager og udsigt over Vágsbotnur.",
     tips: "Undir Bryggjubakka, ved havnen.",
+    links: ["https://www.kaffihusid.fo/en/", "https://visitfaroeislands.com/en/whatson/places/place/kaffihusid1"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -1168,6 +1570,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Café ved havnen i Tórshavn — god til brunch og kaffe.",
     tips: "Undir Bryggjubakka 19.",
+    links: ["https://visitfaroeislands.com/en/whatson/places/place/kafe-umami0"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   },
@@ -1179,6 +1582,7 @@ window.FAROE_ATTRACTIONS = [
     category: "mad",
     description: "Italiensk-inspireret restaurant i Tórshavn — 'meget lækker, lidt dyr'. Frokost og aftensmad.",
     tips: "Skálatrøð 18, i Østrøm-huset ved havnen.",
+    links: ["https://moss.fo/", "https://visitfaroeislands.com/en/whatson/places/place/moss00"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08"],
     mustSee: false, visited: false
   }
