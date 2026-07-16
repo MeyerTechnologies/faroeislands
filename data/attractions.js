@@ -15,7 +15,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AM%C3%BAlafossur2.jpg",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/mulafossur-the-waterfall-in-gasadalur", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/mulafossur", "https://visitvagar.fo/en/see-do0/culture-attractions/viewpoints/mulafossur"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com"],
-    mustSee: true, visited: false
+    mustSee: true, visited: true
   },
   {
     id: "gasadalur",
@@ -29,7 +29,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AG%C3%A1sadalur_(51256491640).jpg",
     links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/gasadalur/", "https://visitvagar.fo/en/about5/about-vagar-and-mykines/the-villages/gasadalur", "https://en.wikipedia.org/wiki/G%C3%A1sadalur"],
     sources: ["danny-cph.com", "guidetofaroeislands.fo", "lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "skardsafossur",
@@ -55,7 +55,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3ATr%C3%A6lan%C3%ADpan_-_Faroe_Islands_-_The_Sea_above_the_Sea_(50382487848).jpg",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/lake-sorvagsvatn-leitisvatn", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/traelanipa/", "https://en.wikipedia.org/wiki/S%C3%B8rv%C3%A1gsvatn"],
     sources: ["guidetofaroeislands.fo", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: true, visited: false
+    mustSee: true, visited: true
   },
   {
     id: "geituskorardrangur",
@@ -83,7 +83,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3ADrangarnir_and_Tindholmur%2C_Faroe_Islands.jpg",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/drangarnir-the-sea-stacks", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/drangarnir/", "https://visitvagar.fo/en/see-do0/activities/hiking-in-our-area/drangarnir-the-sea-stacks"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "magnificentworld.com"],
-    mustSee: true, visited: false
+    mustSee: true, visited: true
   },
   {
     id: "trollkonufingur",
@@ -97,7 +97,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AIs03126-Palec_wied%C5%BAmy.jpg",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/trollkonufingur", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/troellkonufingur/", "https://visitvagar.fo/en/see-do0/culture-attractions/viewpoints/trollkonufingur1"],
     sources: ["danny-cph.com", "heritagewanderlust.com"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "bour",
@@ -111,7 +111,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AB%C3%B8ur.V%C3%A1gar.2.jpg",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/bour0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/boeur", "https://visitvagar.fo/en/about5/about-vagar-and-mykines/the-villages/bour"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "fiskastykkid",
@@ -123,7 +123,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "Úti á Bakka 12, Sandavágur. Book i god tid via hjemmesiden — fyldt i højtider.",
     links: ["https://fiskastykkid.fo/", "https://www.facebook.com/fiskastykkid/"],
     sources: ["danny-cph.com"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
 
   {
@@ -222,7 +222,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AVestmannabj%C3%B8rgini%2C_Faroe_Islands_(7).JPG",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/vestmanna-bird-cliffs", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/vestmanna-bird-cliffs", "https://visitvestmanna.com/en/see-do0/activities/boat-tours"],
     sources: ["guidetofaroeislands.fo", "visitfaroeislands.com", "heritagewanderlust.com", "lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: true, visited: false
+    mustSee: true, visited: true
   },
   {
     id: "sagamuseum-vestmanna",
@@ -236,7 +236,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File:Wiking.voxmuseum.1.jpg",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/saga-museum", "https://visitvestmanna.com/en/whatson/places/place/saga-museum"],
     sources: ["visitfaroeislands.com", "visit-vestmanna.com", "tripadvisor.com"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "vestmanna-daemning",
@@ -250,7 +250,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File:Vestmanna_1950s_constructions.jpg",
     links: ["https://visitvestmanna.com/en/see-do0/activities/hiking-in-our-area", "https://trap.fo/en/society-and-business/energiforsyning-pa-faeroerne/"],
     sources: ["visitfaroeislands.com", "sev.fo", "bruger-tip 2026-07-08"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "skavagil-vestmanna",
@@ -262,7 +262,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "LIGE VED BASEN! Start fra Vestmanna (fx den øverste vej i byen) og følg kløften op mellem de to fjelde. Ingen officielt afmærket sti — tjek retning/vejr før du går, og hav godt fodtøj på grund af løs sten og fugtige partier.",
     links: ["https://hikewithpol.fo/item/1245?_l=en", "https://visitvestmanna.com/en/see-do0/activities/hiking-in-our-area"],
     sources: ["OpenStreetMap", "bruger-tip 2026-07-08"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "vestmanna-mountain-hike",
@@ -288,7 +288,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File:Vestmanna%2C_Faroe_Islands_%287%29.JPG",
     links: ["https://visitfaroeislands.com/en/see-do/activities/at-sea/saltwater-fishing", "https://guidetofaroeislands.fo/nature-in-faroe-islands/sports-fishing-in-the-faroe-islands/"],
     sources: ["visitfaroeislands.com", "guidetofaroeislands.fo", "visitvestmanna.com"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "saksun-vestmanna-hike",
@@ -342,7 +342,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3ATjornuvik_from_Eidiskollur.jpg",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/tjornuvik0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/tjoernuvik", "https://en.wikipedia.org/wiki/Tj%C3%B8rnuv%C3%ADk"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: true, visited: false
+    mustSee: true, visited: true
   },
   {
     id: "tjornuvik-saksun-hike",
@@ -370,7 +370,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AStreymoy_Fossa_von_Eysturoy_2.JPG",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/fossa-waterfall", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/fossa-waterfall", "https://en.wikipedia.org/wiki/Foss%C3%A1"],
     sources: ["visitfaroeislands.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "tyggjara",
@@ -398,7 +398,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AMountain_Sornfelli.1.JPG",
     links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/sornfelli/", "https://adventure.fo/tour/visiting-the-old-military-base/", "https://en.wikipedia.org/wiki/Sornfelli"],
     sources: ["visitfaroeislands.com", "guidetofaroeislands.fo", "lokalt tip (færøsk ven) 2026-07-07"],
-    mustSee: true, visited: false
+    mustSee: true, visited: true
   },
   {
     id: "kvivik",
@@ -412,7 +412,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AKv%C3%ADv%C3%ADk_Faroe_Islands_the_river_and_the_village.JPG",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/viking-excavations-in-kvivik", "https://en.wikipedia.org/wiki/Kv%C3%ADv%C3%ADk", "https://trap.fo/en/the-islands-towns-and-settlements/streymoy/kvivik-and-kvivikar-municipality/"],
     sources: ["visitfaroeislands.com", "trap.fo", "en.wikipedia.org"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "kvivik-viewpoint",
@@ -426,7 +426,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AIs03145-Kvivik.jpg",
     links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/kvivik/", "https://visitfaroeislands.com/en/whatson/places/place/viking-excavations-in-kvivik"],
     sources: ["danny-cph.com"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "leynar",
@@ -460,7 +460,7 @@ window.FAROE_ATTRACTIONS = [
     ],
     links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/lake-leynavatn/", "https://en.wikipedia.org/wiki/Lake_Leynar"],
     sources: ["guidetofaroeislands.fo"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "hvalvik",
@@ -488,7 +488,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AChurch_of_Kollafj%C3%B8r%C3%B0ur%2C_Faroe_Islands.JPG",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/church-in-kollafjordur0", "https://en.wikipedia.org/wiki/Kollafj%C3%B8r%C3%B0ur"],
     sources: ["en.wikipedia.org", "visitfaroeislands.com"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "torshavn",
@@ -502,7 +502,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AIs03002-Torshavn.jpg",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/tinganes", "https://visitfaroeislands.com/en/whatson/places/place/old-town-in-torshavn-a-reyni", "https://guidetofaroeislands.fo/travel-information/the-ultimate-guide-to-torshavn/"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: true, visited: false
+    mustSee: true, visited: true
   },
   {
     id: "listasavn",
@@ -774,7 +774,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3ARisin_and_Kellingin.JPG",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/risin-kellingin", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/risin-kellingin/", "https://en.wikipedia.org/wiki/Risin_og_Kellingin"],
     sources: ["danny-cph.com", "visitfaroeislands.com", "heritagewanderlust.com", "magnificentworld.com", "lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "elduvik",
@@ -860,7 +860,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AFaroe_Islands_F%C3%B8royar_F%C3%A6r%C3%B8erne_Wyspy_Owcze_2019_(1).jpg",
     links: ["https://visitfaroeislands.com/en/whatson/places/place/klaksvik0", "https://guidetofaroeislands.fo/travel-faroe-islands/drive/klaksvik/", "https://visitnorth.fo/klaksvik/"],
     sources: ["guidetofaroeislands.fo", "danny-cph.com", "lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "klakkur",
@@ -1402,7 +1402,7 @@ window.FAROE_ATTRACTIONS = [
     tips: "600 DKK, ca. 1 time, juni-august. Min. 7 år og 30-130 kg. Book online (fuld refusion op til 48 t før); præcist mødested oplyses i voucheren. Tag vindtæt tøj på. Frarådes ved højdeskræk/hjerteproblemer/graviditet.",
     links: ["https://www.outdoor.fo/en/zip-line", "https://guidetofaroeislands.fo/book-holiday-trips/zip-line-activity-faroe-islands/"],
     sources: ["guidetofaroeislands.fo"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "helikopter-atlantic",
@@ -1416,7 +1416,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AAtlantic_Airways_AgustaWestland_AW139.jpg",
     links: ["https://www.atlanticairways.com/en/helicopter", "https://www.ssl.fo/en/timetable/helicopter", "https://visitfaroeislands.com/en/whatson/places/place/experience-vagar-from-above-atlantic-airways"],
     sources: ["atlanticairways.com", "bruger-ønske 2026-07-07"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "leynar-kollafjordur-hike",
@@ -1468,7 +1468,7 @@ window.FAROE_ATTRACTIONS = [
     imagePage: "https://commons.wikimedia.org/wiki/File%3AChurch_of_Haldarsv%C3%ADk%2C_Faroe_Islands.JPG",
     links: ["https://guidetofaroeislands.fo/travel-faroe-islands/drive/haldorsvik/", "https://en.wikipedia.org/wiki/Hald%C3%B3rsv%C3%ADk", "https://trap.fo/en/the-islands-towns-and-settlements/streymoy/haldorsvik/"],
     sources: ["lokalt tip (færøsk ven) 2026-07-08"],
-    mustSee: false, visited: false
+    mustSee: false, visited: true
   },
   {
     id: "vidarlundin",
